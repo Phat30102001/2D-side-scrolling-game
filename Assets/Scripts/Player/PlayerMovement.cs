@@ -93,5 +93,4 @@ public class PlayerMovement : MonoBehaviour
         //horizontal's always = 1
         animator.SetFloat("IsRun", Mathf.Abs(horizontal));
     }
-
 }
