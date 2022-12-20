@@ -1,0 +1,5417 @@
+fileFormatVersion: 2
+guid: 6f396056f161d3445a82bd864151863c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloodyZombie_0
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 985
+        width: 34
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c941fc3ad61464eb5e14c8b5de2869
+      internalID: -1894972820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_1
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1039
+        width: 15
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842198c4612df3a439a105426034f001
+      internalID: 251328055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_2
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 985
+        width: 43
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa4932d59050254b83b2c56ab2ed459
+      internalID: 126228661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_3
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1035
+        width: 12
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbdf08d51a90dd498a2d2080174d047
+      internalID: 1212434174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_4
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 985
+        width: 46
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc51e4e4fedfb54d903fc3a1fb505d0
+      internalID: -1614384774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 985
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ea8d83b22eb24c90e6a0df38a9f19
+      internalID: 1379473082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 985
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7565c64fb917d45a094f6686993ac1
+      internalID: 1367767188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 985
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f3b7b0de04288418fc8aa14ff33fc3
+      internalID: -840490980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 985
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e53c881b7791e048aaac792cfab8a22
+      internalID: 2108232015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_9
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 985
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fcb77c44af4844d8ec509548a3043a
+      internalID: -21893228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 985
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793904fe322dad542bcdd123265b5c7a
+      internalID: -1169067920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 985
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785c4c37ea8488840be2260de1df1a1b
+      internalID: 1551406803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 985
+        width: 22
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caccc83319c49b342aea9ba860cf5f15
+      internalID: -1736071447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 985
+        width: 15
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087b0d3857276234dbe245aec2e46cb6
+      internalID: 1334870000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 985
+        width: 41
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc0d8de4a369d6448c58f078ca8108f
+      internalID: -1586888359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_15
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 985
+        width: 43
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc8c551cc960be4ba022582594a5eb6
+      internalID: 266728874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_16
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 985
+        width: 41
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927213347d3526f448ff65907f19b0cd
+      internalID: 1404788145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_17
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 985
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad87809b21147824b916c3e02ca9ad1e
+      internalID: -1992754019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_18
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 985
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685da1d4f34dbc94caa29d70fa1b030d
+      internalID: 1799897330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_19
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 985
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcd9bf3d2a370542a9d9e735e1a4604
+      internalID: 498302315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daea988446b3bc2439ea3f432ea917cf
+      internalID: 1088095600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d8c277c27713a45b8422ac84d08e4b
+      internalID: -482294841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8dd7193e664c2468add1f2c4a79cbd
+      internalID: 1003613964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_23
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba6fd4c2792a124e9d9cf0a862c23d5
+      internalID: -772038827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 945
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed12b4e0229aab44cacab6c35da9249e
+      internalID: 1054557837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_25
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779a3edee9ac745418fd32034a2cad11
+      internalID: -2113917324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 946
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02a334c08316a14cb0947dfdef5cd1a
+      internalID: 1296422002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_27
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9955fe683099ce40a49547981691333
+      internalID: 1768588044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_28
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 946
+        width: 18
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2be24ded4fcc8e42bfdc8ca8673f2e3
+      internalID: -75204058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_29
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec8c7fdc3a9cf4438c752f2bd88fdd7
+      internalID: 2000231228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_30
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 956
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addeff1fc13874a4f8bac427459dbae6
+      internalID: 606117681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_31
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 955
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7defb4c22753cd42a83d986521f412d
+      internalID: 527462492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_32
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fa4a272cde77443aa017c9c2034a82
+      internalID: 1673190634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_33
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 957
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990c685b8a6713944a3fd5ef7d01e2ea
+      internalID: -1252159970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_34
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 955
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f738b5aafc552749bda09f90094472d
+      internalID: -160054297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_35
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 957
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472de6b1f0608e942b55cef7a374e5c0
+      internalID: -121513085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_36
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 915
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1811cfca021deec42be63c53a0129ede
+      internalID: -703039307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_37
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 957
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7758753105e8fa84587872e91c8941e9
+      internalID: -995183213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_38
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 955
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e1d5486096d304e97f9d5187a723ed
+      internalID: -314574881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_39
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 958
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94ad1bf00a1f9b47861fbefe2314c63
+      internalID: -1598517359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_40
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 944
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d530d0b30233946b52d7c5465090f2
+      internalID: 872257920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 945
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1864e6fd16f945649bc0404f86a18582
+      internalID: -392143895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 945
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c0385e32cf2844d970172399f14c77
+      internalID: 524081985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_43
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 947
+        width: 12
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0633bea4a60d99c438484314eeffc761
+      internalID: 95279843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_44
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 948
+        width: 13
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85faef84f5bc0904d8668ba615e788d5
+      internalID: 470520111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_45
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 948
+        width: 14
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c21474efb10a64db3cbf6c4b1d3938
+      internalID: 1101681057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 840
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49603ce0035329e409ab3d59aa8828af
+      internalID: -1548328306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 883
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8176b45e7ae63e43b9602b990dc93f7
+      internalID: -2094181697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 881
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf492d2dff72cb94d97a00c919922b98
+      internalID: 1792942227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 883
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a71f9c4e6308143ba9a8f17e5266a3
+      internalID: -1588950427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_50
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 840
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4db01d5a48ae57438aea6401f61c10a
+      internalID: -1173788130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_51
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 881
+        width: 22
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bcdf02039fd1543bacd681792439ab
+      internalID: 1979744970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_52
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 840
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e655656a4e3374ea4d0eadebada60d
+      internalID: 1501187938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 872
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ed2442035a2c94f84f920158810d69
+      internalID: 48765899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_54
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 840
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ed1430fcf06e4a886807f13938113
+      internalID: -1066724841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_55
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 871
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68280425c41a5b044ac46152bd4aa4e7
+      internalID: 1179835901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_56
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 840
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5d101336aa8e04cae1e24d9fde9ea7
+      internalID: -36902899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_57
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 885
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324a968913990174eb57a5c5bc68e909
+      internalID: -121283189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_58
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 880
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8df71cd1043c814584ca19eb385c949
+      internalID: -1341655167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_59
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 840
+        width: 75
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd646594f8521488699e3fbc1aadb5
+      internalID: 436496625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_60
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 840
+        width: 79
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810500aec8ac5464bb5e29b96b904423
+      internalID: 1785729061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_61
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 840
+        width: 81
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcddeaaee1cd6fe4badf2f9d3ae305e1
+      internalID: -1942059895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_62
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 840
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61fbb325ae7cfc45bfbe46625b85e84
+      internalID: -564606942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_63
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 866
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c135e7fd1124b6438eba5e55a293dd8
+      internalID: 1522815658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_64
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 873
+        width: 14
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a12df3f4fe689a419e6799ee2936dcf
+      internalID: -41315841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_65
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 872
+        width: 15
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2181619557fedd24ca09fe69a97c58c6
+      internalID: -770143191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_66
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 872
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617cc4ec365635b439d46ef399edc3d2
+      internalID: 557189211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_67
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 871
+        width: 16
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc43278f1bc1b4d42af4d309bc2e4ec3
+      internalID: 312621887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_68
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 870
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd14595b451b57479aae7757ce3c681
+      internalID: -1028585637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_69
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 861
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043bfdd45b19df14786e2791c64e2b98
+      internalID: 606680722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_70
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 861
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dd81923c9d6054ca17351488da1783
+      internalID: -160901161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_71
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 860
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4ab2a5bb82c7f45b67b549b3c197fa
+      internalID: -75064742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_72
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 859
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01249b8bb98bff84fa751b36b04adb4a
+      internalID: 1407708267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 86
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7630b671871b40440819c1135ac0fa74
+      internalID: -194059618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_74
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 764
+        width: 88
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e54bf0ba2c0574e90bb61aa0b68b0d
+      internalID: 1588785472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_75
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 764
+        width: 93
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7ff9507677a9146889d6a30a8b6336
+      internalID: 497025872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_76
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 764
+        width: 96
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e623690db0ebd2468fdc5a2aa82f190
+      internalID: -1115218636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_77
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 764
+        width: 101
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1399dfbcaba31c1428d61fd166d6142c
+      internalID: 661498659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_78
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 784
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad0251f1bd9f5643818b574708843fc
+      internalID: 1849799314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_79
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 764
+        width: 105
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c68f7e69f1d89428c6ecb46146cd51
+      internalID: 420370243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_80
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 782
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4e5a2683f08154f8b08a01215451bd
+      internalID: -244226352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_81
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 764
+        width: 100
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4828694070670094688872d87cda6447
+      internalID: -1049522534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_82
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 781
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c09f45a1fe7e0342b032b329f241683
+      internalID: 1715867570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_83
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 764
+        width: 108
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6942442d0113029428f97573778aced4
+      internalID: -375013037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_84
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 764
+        width: 103
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af9530e6d9688049b05b43e5ab29a7c
+      internalID: -1821103964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0999bd395c7f32241bf6836310ec2a23
+      internalID: -146998495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_86
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 698
+        width: 111
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c908ea33f18dafd4f9a643a8d280b6b2
+      internalID: 1401922181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_87
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 711
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1d40ca200ef8a42b33437c9807f5b0
+      internalID: 1645907118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_88
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 698
+        width: 105
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0739551bad3d349b94a31188ddef81
+      internalID: 1991273021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 709
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50eba33f2faaf045846b84de41b233a
+      internalID: -1699798818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_90
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 698
+        width: 115
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9116286dfa82c12448db7a724b17bcc0
+      internalID: -1902142694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_91
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 698
+        width: 97
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c1e4051dd73794cb8de6e0a3216a9e
+      internalID: 518334421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_92
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 697
+        width: 106
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec22008f6c180ae47a7c788098865e0b
+      internalID: -299417246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_93
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 695
+        width: 100
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c54aa9ec78d804d9af5345f22aff94
+      internalID: 219701005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_94
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 693
+        width: 102
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f63d65b441fb9459b8e4e89cf8d082
+      internalID: 525552013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_95
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 691
+        width: 111
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3747e46cddac3b4469d38d430bb0b8cb
+      internalID: -254930124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_96
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 688
+        width: 112
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754d370fb050ae446b659a6a1917cd7d
+      internalID: -645643697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_97
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 707
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e873f57fa424da4bb0e82b59cfbac91
+      internalID: 648660625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_99
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 704
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f59080d76ab76845942a4586e7f184d
+      internalID: 1660881482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_100
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 595
+        width: 106
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc022c53ae5294e8aa0c3c07cd1458
+      internalID: -303412014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 625
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff6773e51d593a44af025effc48861f
+      internalID: 1024912385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_102
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 605
+        width: 59
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf64c04fd44732438d264a23fcc9955
+      internalID: 436402974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_103
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 622
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84ff87c6b45884488e66f632496288b
+      internalID: -1126767769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_104
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 605
+        width: 63
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b56d86ceb220a14ab4f7fa3acb6d2e8
+      internalID: -2138212369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_105
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 605
+        width: 64
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02652e19d3a8a2438ac48cce2c1803e
+      internalID: -1006125895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_106
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 605
+        width: 66
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e3fe8a872c595478c5ad94405eb049
+      internalID: 497372539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_107
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 605
+        width: 68
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2108f7cfdb23a10429d16a5f5643f44e
+      internalID: -1376731712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_108
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 605
+        width: 57
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b40dc791de5804da517edb9275499f
+      internalID: 1880989197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_109
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 605
+        width: 58
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91443c7bf317d634d88399610b8929df
+      internalID: -1696711933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_110
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 605
+        width: 64
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066c18467ebb4f349beedd5c89b285be
+      internalID: 151449442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_111
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 619
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a272389c0194141a2d9919498de051
+      internalID: -377139568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_112
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 618
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e439686342b8640b1c3603759ee315
+      internalID: 1194154224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_113
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 616
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3203c9590972f4f93906c8d278059e
+      internalID: -808676799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_114
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 617
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9b0ddee721acc44b7fc21bc35bd8f2
+      internalID: -2066280390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_115
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 614
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed50864d4fe61ef43869f838811bfc97
+      internalID: 1395882093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_116
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 611
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf0c379311a43d49ac6cb3a407802b4
+      internalID: -1360346329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_117
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 606
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d927d4c45461824fa33738f58ca6d47
+      internalID: 1638415094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_118
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 517
+        width: 70
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdefa6718e34144aa990a21d36624a2
+      internalID: 1307319875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_119
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 537
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c29463e028a0ce419fd84fc7d6884e2
+      internalID: 1260839535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_120
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 517
+        width: 59
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c00779600d33438f71c885d45618c
+      internalID: 852964956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_121
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 534
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabb502e56c1ba642868e0447e3fafaf
+      internalID: -793037252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_122
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 517
+        width: 63
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498e29e700401644b36c6b6fba10c70
+      internalID: 1217256522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_123
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 517
+        width: 64
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593e06b2eefe5ba4cbaf956e560c838f
+      internalID: 2106620774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_124
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 517
+        width: 66
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa74ff74fcb8f044b47adec852439d8
+      internalID: 85908573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_125
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 517
+        width: 68
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c26ec19d985644e96a5534d85081e0
+      internalID: -1962984812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_126
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 517
+        width: 57
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3e02db79895c64aaee2c340cde0577
+      internalID: -1662674017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_127
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 517
+        width: 59
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6786da54895215140bb8975988641587
+      internalID: -596871794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_128
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 517
+        width: 62
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bf77b795117a542a1c52842a517048
+      internalID: -946934034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_129
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 531
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1698c3d028267484a84db0b5de89cd72
+      internalID: 1232449144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_130
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 530
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1fcd09ed8a65b4bba12f2135faa0e9
+      internalID: 193719657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_131
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 528
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64707c97b8f233498939d1d8917b9ed
+      internalID: -1905496197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_132
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 529
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7738a8e95d93f964e8151f1687c3ee81
+      internalID: -1006683696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_133
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 524
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4057edfdd5e7b4c954967e60b511bb
+      internalID: 440782696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_134
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 518
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ff511a6b672a442a09ac32f2f7aef1
+      internalID: 2074174907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_135
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 433
+        width: 64
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb0af459c8c09245b9f13d2c113b455
+      internalID: -1484018974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 433
+        width: 66
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8144540a3d6853d428d2edb72556e48e
+      internalID: 1985805531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_137
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 454
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bee73070fb16b6489c0cde27978fd48
+      internalID: 1049025205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_138
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 433
+        width: 57
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf83f432143b5541add8bd7d6713a9e
+      internalID: -1641829300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_139
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 453
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6780aa2899053241a72c7cabd9f7ee3
+      internalID: 28981277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_140
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 433
+        width: 59
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b29ab74c7075844a881ce1355cd4c67
+      internalID: 281588888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_141
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 450
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f51a93505d6f64185733de05246364
+      internalID: -1683183737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_142
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 433
+        width: 63
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deaa17a2ac6f3346b0ff06bd58dc130
+      internalID: -159354287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_143
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 433
+        width: 64
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9985e15bc326648b2249abf5fe39c7
+      internalID: -1407625587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_144
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 433
+        width: 92
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72ee13db72968440978e58c3c2d4c35
+      internalID: 1846837794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_145
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 433
+        width: 59
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedd3c4edaa5ad84780ac78850afbdb9
+      internalID: 328123185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_146
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 433
+        width: 62
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86e7bb00aa9308458f2f524841f3dec
+      internalID: 428561656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_147
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 447
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b7c36aaa2c4d04fa7ab0637b952d79
+      internalID: -909222576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_148
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 444
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb662ad607b835a47af1ee625a82c610
+      internalID: -1975435547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_149
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 439
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73665f83cfaafe54eb98e28e342765b5
+      internalID: 861497394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_150
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 440
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433c8d99e2c4dc24cb6b331f80a305b2
+      internalID: -497297490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_151
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 371
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de12939cf0f5bc64ca538e53c6ccc5ae
+      internalID: 786363030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_152
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 370
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8a2c0b0c8d8324aa78b7b8299bf1fb
+      internalID: -645557319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_153
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 338
+        width: 43
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ac72c5323283848aa292c0b06d9c70
+      internalID: 1229847920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_154
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 370
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04eab28af3fb6a84f9be1d2b48031904
+      internalID: -1951171336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_155
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 370
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0563cf0592f679a4ea4933b63014d5fc
+      internalID: -1473310004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_156
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 370
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6957d2513e1cfc74e95d03f2123f7bb7
+      internalID: 514906426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_157
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 370
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4be03edc1a7ac489a370332e729386
+      internalID: -21859195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_158
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 370
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a890e2b23b6063448ef0f30f4217f4a
+      internalID: -545714451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_159
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 338
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326ac8ef7a7a61943a36989104c0e06d
+      internalID: 1401788199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_160
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 370
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4b65d6cfa538943a753f74116c3100
+      internalID: 1666195576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_161
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 338
+        width: 40
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ca2792c43b77140a14d1ccc4522ea7
+      internalID: 1946927104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_162
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 359
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a838e3f130cef0340bf196662e79a9ea
+      internalID: 564182139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_163
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 338
+        width: 43
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e3042d60d9a8e44beb8f1ee1a0b9e0
+      internalID: 1636889517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_164
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 358
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e980ea929c7acf7458f137fa820a1b12
+      internalID: -1649185818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_165
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 338
+        width: 44
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f31ac412360ed49a35729b11b648b5
+      internalID: 519392711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_166
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 338
+        width: 47
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c51ad36c59b8840843238a7d933902
+      internalID: -2130093414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_167
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 338
+        width: 46
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1584cc0600c4044a350e2a702010e4
+      internalID: 1969374576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_168
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 338
+        width: 47
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff17cc24ef66a42448c707a69342cf0b
+      internalID: -2084272656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_169
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 338
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3d155bd0ebe0c44a0b9791420a8da5
+      internalID: 2094564003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_170
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 343
+        width: 27
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5870efeedd33521409ecb9c85b8fbbb2
+      internalID: -827911687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_171
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 344
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a2d995e7bd0154b84823dc5012399f
+      internalID: -1948593519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_172
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 352
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0fe2a1e1f5e984e985397451405061
+      internalID: 936471663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_173
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 351
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93360cabeb8b45b44b8bbf0f7023f35f
+      internalID: -450317656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_174
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 349
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa98b37ecdc1be45a35d3c569a22640
+      internalID: 406064740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_175
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 341
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4c54296d27a3448acc7d54a6af174f
+      internalID: -1104292509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_176
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 339
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad36725e071447946a3167259ab7f99b
+      internalID: -1595064059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_177
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 274
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d73e0ea41274434b99782d55fca222f
+      internalID: 1492179056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_178
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 242
+        width: 31
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf3a6c1491255147982c6496a6ce316
+      internalID: 1314895714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_179
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 242
+        width: 31
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dd67ed1b0271f45897c1f828ad6b31
+      internalID: 1310049060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_180
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 242
+        width: 31
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115c5ae3e42eb6f4abeb33fcd46f860e
+      internalID: -1341096028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_181
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 274
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f232281265cc2143ba8dd767a4429d3
+      internalID: -747858462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_182
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 242
+        width: 31
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a696001b30b4d46a3d9c6df754fb89
+      internalID: -1470541776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_183
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 274
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f1a0674b83e2844a5b6e6d440a6f94
+      internalID: -300082058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_184
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 242
+        width: 31
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db8a0f43dd3ac1428134b9fe8fb4b9e
+      internalID: -1776652644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_185
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 242
+        width: 31
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5250cc131e67a84f986c3ffc128e76f
+      internalID: 1131291296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_186
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 242
+        width: 31
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793807ee54199d040b1f22c1cbe0fd51
+      internalID: 1250613074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_187
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 274
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000f022e4e2cc60418bbc5b128a52936
+      internalID: -320427501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_188
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 242
+        width: 31
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62784ca2314ecb543a372b610e85e672
+      internalID: -2093442734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_189
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 274
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45589970aff5710448965b1ef57d10cf
+      internalID: -1607916315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_190
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 242
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c046afac2cef24fa2bcaa0529aefeb
+      internalID: 661561205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_191
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 180
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b960a542ff030a4f814a743f428e8cc
+      internalID: -787971464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_192
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 189
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da56fc487b47644595de4348f252cb3
+      internalID: -755714396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_193
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 184
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60425b551b459204593553b4d41c3dab
+      internalID: 510909155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_194
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 182
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309b12ca67f6690418113a0c239bb8e4
+      internalID: -737074722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_195
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 186
+        width: 28
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81850faa53a6d41886d33720ec8ba9
+      internalID: -1091508601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_196
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 198
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76617f6d8b3bfbf459e7708611e42bf1
+      internalID: 284823451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_197
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 182
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a515668ac7c362e4baebd68227da717b
+      internalID: -1901504149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_198
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 162
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fff0b65dd57f248bb982c537d997b0
+      internalID: -1569891834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_199
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 183
+        width: 28
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4115ce9181e164c96707e3629e3a46
+      internalID: 769153638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_200
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 175
+        width: 6
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71855f263de26d1468d13fad06b2de95
+      internalID: -1298671514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_201
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 189
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc36c88359a7b0478ed7126ea7673e2
+      internalID: 1684049979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_202
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 161
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62498b4fbaa7e4847a6f1591ef406913
+      internalID: 2037584528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_203
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 194
+        width: 17
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d568fff3a5289e479ec00159d20b6cb
+      internalID: -1278801117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_204
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 180
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e0ad1d130f7304b9e1e19b53a91249
+      internalID: 389595008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_205
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 164
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176402704a1c12143b5138a8b95f7ef4
+      internalID: -592720667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_206
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 182
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7735064cbe04842bc2e1b73164c83d
+      internalID: 1839137156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_207
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 183
+        width: 10
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ed3d2dbc54c4b44bf39ce3a25a2185
+      internalID: -1442637007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_208
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 175
+        width: 6
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8393fe6bd31b0ee43bcd51f356aa44c1
+      internalID: -397415153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_209
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 171
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f55b02dba751942bb7079611475978
+      internalID: 2096585429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_210
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 162
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae974d3e17cb7744a8de5e0f76a3ee8
+      internalID: -1491042097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_211
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 165
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45650f8553500b24ba4da4a773fb3000
+      internalID: -1952537687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_212
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 159
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84f745dd838bed4abe0abf1a9bbc89e
+      internalID: -1575244737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_213
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 158
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b885b4dcff0f5a4794cdc0415a613ef
+      internalID: -275286926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_214
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 167
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7ed4b8066d95e44be35306182526f8
+      internalID: -1345056441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_215
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 154
+        width: 20
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d5c611b5382244484ad9246c32eff2
+      internalID: 1688775667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_216
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 148
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac4e3d4477a4484eb538278e97fa287
+      internalID: 779636992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_217
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 151
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb4d7b5a9187134d8e442eb257d0ef8
+      internalID: -261890699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_218
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 109
+        width: 28
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b072bd7afb0949844a3abe1472f653cd
+      internalID: 66796131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_219
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 86
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2b4854b539ad748ac79e25ea1661f7
+      internalID: 1421273532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_220
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 112
+        width: 28
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae01229cda5ec94287c58ec82f5f271
+      internalID: 1783238929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_221
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 91
+        width: 28
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7522a722fbceb4e92ded7aaff7d29a
+      internalID: -1842207529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_222
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 86
+        width: 12
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63ca939ca569ef49b158d2765367d44
+      internalID: -416573867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_223
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 92
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dbe7e7ab77b2c458b97061546bc787
+      internalID: -1004136304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_224
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 15
+        width: 18
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f185fa1e213c8124da1497cd4243dbb6
+      internalID: 74357380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_225
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 98
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02acd4298e8e5148ac07eb462123ffb
+      internalID: 162874105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_226
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 18
+        width: 19
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cbef9a08cb5384abfdbe88fa25cee4
+      internalID: -1239418342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_227
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 86
+        width: 18
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfa20c9e0685604bae553c8d66eae19
+      internalID: 1407085848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_228
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 87
+        width: 18
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0811e4aab8ae3740a39890533b6692d
+      internalID: 697619310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_229
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 89
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb1140630e165344851360122b8e6f9
+      internalID: 323544572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_230
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 85
+        width: 27
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03e2133d9381174b8cc187147fe54c2
+      internalID: 14539165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_231
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 88
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c77049c43547a4db4b53a304624559
+      internalID: 181965394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_232
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 97
+        width: 6
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bf87eebabf7c64fa466ad7a2e73c34
+      internalID: -2124620381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_233
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e1a48c6baa38c4bba5dc3211be8153
+      internalID: -1634550640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_234
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 92
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1ded45758765540bffe8c571b7fdd0
+      internalID: -1597539765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_235
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 93
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80e50e6346c1514a8ca6637952f9aa0
+      internalID: 2006177499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_236
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 24
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5484300096980e7428cb39ca35bb84bb
+      internalID: -1369471215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_237
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daf4d6adfac7294cb40a85133a8c9cc
+      internalID: -1998216982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_238
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67ca738a6c0cdc438c8eb20c7e5d2a0
+      internalID: 1859725573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_239
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 13
+        width: 6
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8771c9e1b5ad14aa59f78b5f272b67
+      internalID: 691446806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodyZombie_240
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 10
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343cb834c95a874469d19e069a910dba
+      internalID: 911685180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BloodyZombie_113: -808676799
+      BloodyZombie_118: 1307319875
+      BloodyZombie_17: -1992754019
+      BloodyZombie_40: 872257920
+      BloodyZombie_14: -1586888359
+      BloodyZombie_103: -1126767769
+      BloodyZombie_211: -1952537687
+      BloodyZombie_37: -995183213
+      BloodyZombie_13: 1334870000
+      BloodyZombie_218: 66796131
+      BloodyZombie_49: -1588950427
+      BloodyZombie_107: -1376731712
+      BloodyZombie_3: 1212434174
+      BloodyZombie_138: -1641829300
+      BloodyZombie_137: 1049025205
+      BloodyZombie_188: -2093442734
+      BloodyZombie_2: 126228661
+      BloodyZombie_7: -840490980
+      BloodyZombie_68: -1028585637
+      BloodyZombie_16: 1404788145
+      BloodyZombie_145: 328123185
+      BloodyZombie_153: 1229847920
+      BloodyZombie_171: -1948593519
+      BloodyZombie_208: -397415153
+      BloodyZombie_65: -770143191
+      BloodyZombie_48: 1792942227
+      BloodyZombie_152: -645557319
+      BloodyZombie_155: -1473310004
+      BloodyZombie_102: 436402974
+      BloodyZombie_125: -1962984812
+      BloodyZombie_227: 1407085848
+      BloodyZombie_4: -1614384774
+      BloodyZombie_58: -1341655167
+      BloodyZombie_200: -1298671514
+      BloodyZombie_133: 440782696
+      BloodyZombie_235: 2006177499
+      BloodyZombie_187: -320427501
+      BloodyZombie_39: -1598517359
+      BloodyZombie_97: 648660625
+      BloodyZombie_132: -1006683696
+      BloodyZombie_149: 861497394
+      BloodyZombie_158: -545714451
+      BloodyZombie_15: 266728874
+      BloodyZombie_20: 1088095600
+      BloodyZombie_115: 1395882093
+      BloodyZombie_150: -497297490
+      BloodyZombie_154: -1951171336
+      BloodyZombie_32: 1673190634
+      BloodyZombie_5: 1379473082
+      BloodyZombie_203: -1278801117
+      BloodyZombie_114: -2066280390
+      BloodyZombie_45: 1101681057
+      BloodyZombie_91: 518334421
+      BloodyZombie_38: -314574881
+      BloodyZombie_101: 1024912385
+      BloodyZombie_112: 1194154224
+      BloodyZombie_175: -1104292509
+      BloodyZombie_147: -909222576
+      BloodyZombie_174: 406064740
+      BloodyZombie_35: -121513085
+      BloodyZombie_33: -1252159970
+      BloodyZombie_180: -1341096028
+      BloodyZombie_54: -1066724841
+      BloodyZombie_72: 1407708267
+      BloodyZombie_205: -592720667
+      BloodyZombie_210: -1491042097
+      BloodyZombie_148: -1975435547
+      BloodyZombie_0: -1894972820
+      BloodyZombie_29: 2000231228
+      BloodyZombie_229: 323544572
+      BloodyZombie_117: 1638415094
+      BloodyZombie_237: -1998216982
+      BloodyZombie_74: 1588785472
+      BloodyZombie_124: 85908573
+      BloodyZombie_186: 1250613074
+      BloodyZombie_157: -21859195
+      BloodyZombie_31: 527462492
+      BloodyZombie_196: 284823451
+      BloodyZombie_144: 1846837794
+      BloodyZombie_56: -36902899
+      BloodyZombie_119: 1260839535
+      BloodyZombie_172: 936471663
+      BloodyZombie_194: -737074722
+      BloodyZombie_134: 2074174907
+      BloodyZombie_84: -1821103964
+      BloodyZombie_239: 691446806
+      BloodyZombie_110: 151449442
+      BloodyZombie_169: 2094564003
+      BloodyZombie_9: -21893228
+      BloodyZombie_99: 1660881482
+      BloodyZombie_120: 852964956
+      BloodyZombie_166: -2130093414
+      BloodyZombie_89: -1699798818
+      BloodyZombie_111: -377139568
+      BloodyZombie_240: 911685180
+      BloodyZombie_77: 661498659
+      BloodyZombie_96: -645643697
+      BloodyZombie_129: 1232449144
+      BloodyZombie_178: 1314895714
+      BloodyZombie_165: 519392711
+      BloodyZombie_135: -1484018974
+      BloodyZombie_204: 389595008
+      BloodyZombie_163: 1636889517
+      BloodyZombie_198: -1569891834
+      BloodyZombie_67: 312621887
+      BloodyZombie_207: -1442637007
+      BloodyZombie_25: -2113917324
+      BloodyZombie_223: -1004136304
+      BloodyZombie_46: -1548328306
+      BloodyZombie_57: -121283189
+      BloodyZombie_236: -1369471215
+      BloodyZombie_59: 436496625
+      BloodyZombie_232: -2124620381
+      BloodyZombie_92: -299417246
+      BloodyZombie_34: -160054297
+      BloodyZombie_123: 2106620774
+      BloodyZombie_177: 1492179056
+      BloodyZombie_231: 181965394
+      BloodyZombie_230: 14539165
+      BloodyZombie_159: 1401788199
+      BloodyZombie_60: 1785729061
+      BloodyZombie_19: 498302315
+      BloodyZombie_151: 786363030
+      BloodyZombie_108: 1880989197
+      BloodyZombie_192: -755714396
+      BloodyZombie_162: 564182139
+      BloodyZombie_69: 606680722
+      BloodyZombie_80: -244226352
+      BloodyZombie_202: 2037584528
+      BloodyZombie_94: 525552013
+      BloodyZombie_87: 1645907118
+      BloodyZombie_11: 1551406803
+      BloodyZombie_12: -1736071447
+      BloodyZombie_70: -160901161
+      BloodyZombie_78: 1849799314
+      BloodyZombie_24: 1054557837
+      BloodyZombie_63: 1522815658
+      BloodyZombie_109: -1696711933
+      BloodyZombie_105: -1006125895
+      BloodyZombie_181: -747858462
+      BloodyZombie_212: -1575244737
+      BloodyZombie_167: 1969374576
+      BloodyZombie_36: -703039307
+      BloodyZombie_75: 497025872
+      BloodyZombie_64: -41315841
+      BloodyZombie_42: 524081985
+      BloodyZombie_142: -159354287
+      BloodyZombie_55: 1179835901
+      BloodyZombie_95: -254930124
+      BloodyZombie_179: 1310049060
+      BloodyZombie_160: 1666195576
+      BloodyZombie_173: -450317656
+      BloodyZombie_83: -375013037
+      BloodyZombie_131: -1905496197
+      BloodyZombie_220: 1783238929
+      BloodyZombie_82: 1715867570
+      BloodyZombie_86: 1401922181
+      BloodyZombie_234: -1597539765
+      BloodyZombie_214: -1345056441
+      BloodyZombie_161: 1946927104
+      BloodyZombie_90: -1902142694
+      BloodyZombie_88: 1991273021
+      BloodyZombie_130: 193719657
+      BloodyZombie_44: 470520111
+      BloodyZombie_18: 1799897330
+      BloodyZombie_164: -1649185818
+      BloodyZombie_26: 1296422002
+      BloodyZombie_156: 514906426
+      BloodyZombie_146: 428561656
+      BloodyZombie_191: -787971464
+      BloodyZombie_47: -2094181697
+      BloodyZombie_139: 28981277
+      BloodyZombie_28: -75204058
+      BloodyZombie_140: 281588888
+      BloodyZombie_76: -1115218636
+      BloodyZombie_141: -1683183737
+      BloodyZombie_184: -1776652644
+      BloodyZombie_116: -1360346329
+      BloodyZombie_219: 1421273532
+      BloodyZombie_121: -793037252
+      BloodyZombie_127: -596871794
+      BloodyZombie_23: -772038827
+      BloodyZombie_225: 162874105
+      BloodyZombie_228: 697619310
+      BloodyZombie_85: -146998495
+      BloodyZombie_100: -303412014
+      BloodyZombie_226: -1239418342
+      BloodyZombie_213: -275286926
+      BloodyZombie_61: -1942059895
+      BloodyZombie_182: -1470541776
+      BloodyZombie_52: 1501187938
+      BloodyZombie_136: 1985805531
+      BloodyZombie_22: 1003613964
+      BloodyZombie_193: 510909155
+      BloodyZombie_199: 769153638
+      BloodyZombie_51: 1979744970
+      BloodyZombie_209: 2096585429
+      BloodyZombie_241: -2137380273
+      BloodyZombie_21: -482294841
+      BloodyZombie_190: 661561205
+      BloodyZombie_98: 2130940338
+      BloodyZombie_73: -194059618
+      BloodyZombie_27: 1768588044
+      BloodyZombie_81: -1049522534
+      BloodyZombie_195: -1091508601
+      BloodyZombie_43: 95279843
+      BloodyZombie_206: 1839137156
+      BloodyZombie_238: 1859725573
+      BloodyZombie_79: 420370243
+      BloodyZombie_170: -827911687
+      BloodyZombie_217: -261890699
+      BloodyZombie_176: -1595064059
+      BloodyZombie_221: -1842207529
+      BloodyZombie_41: -392143895
+      BloodyZombie_71: -75064742
+      BloodyZombie_143: -1407625587
+      BloodyZombie_215: 1688775667
+      BloodyZombie_216: 779636992
+      BloodyZombie_10: -1169067920
+      BloodyZombie_185: 1131291296
+      BloodyZombie_224: 74357380
+      BloodyZombie_53: 48765899
+      BloodyZombie_50: -1173788130
+      BloodyZombie_93: 219701005
+      BloodyZombie_201: 1684049979
+      BloodyZombie_104: -2138212369
+      BloodyZombie_1: 251328055
+      BloodyZombie_8: 2108232015
+      BloodyZombie_183: -300082058
+      BloodyZombie_6: 1367767188
+      BloodyZombie_189: -1607916315
+      BloodyZombie_62: -564606942
+      BloodyZombie_122: 1217256522
+      BloodyZombie_197: -1901504149
+      BloodyZombie_66: 557189211
+      BloodyZombie_30: 606117681
+      BloodyZombie_233: -1634550640
+      BloodyZombie_106: 497372539
+      BloodyZombie_168: -2084272656
+      BloodyZombie_126: -1662674017
+      BloodyZombie_128: -946934034
+      BloodyZombie_222: -416573867
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

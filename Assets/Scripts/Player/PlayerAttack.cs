@@ -7,6 +7,10 @@ public class PlayerAttack : MonoBehaviour
     public Animator animator;
     public bool isAttacking = false;
 
+    public Transform attackHitboxPos;
+    public LayerMask damagealbeObject;
+    public float attackRadius;
+
     public static PlayerAttack instance;
 
     private void Awake()
@@ -23,8 +27,22 @@ public class PlayerAttack : MonoBehaviour
 
         if (context.performed && !isAttacking)
         {
-            Debug.Log("0");
+            //Debug.Log("0");
             isAttacking = true;
         }
+    }
+
+    public void CheckHitbox()
+    {
+        Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(attackHitboxPos.position,attackRadius,damagealbeObject);
+
+        foreach(Collider2D collider in detectedObjects)
+        {
+            Debug.Log("Damaged");
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(attackHitboxPos.position, attackRadius);
     }
 }
