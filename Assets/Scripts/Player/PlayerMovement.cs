@@ -8,8 +8,9 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    public UnitStat unit;
+
     [SerializeField] private float horizontal;
-    [SerializeField] private float speed;
     [SerializeField] private float jumpingForce;
 
     //check player facing side
@@ -28,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        rb.velocity = new Vector2(horizontal * unit.movingSpeed, rb.velocity.y);
 
         // facing direction
         if (!isFacingRight && horizontal > 0f)

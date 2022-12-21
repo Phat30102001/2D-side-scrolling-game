@@ -1,0 +1,839 @@
+fileFormatVersion: 2
+guid: 1831476b374d92c47b9e2b8594a9ab0d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 284
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396f1bb148171464583ea043c8127afc
+      internalID: -1224502490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 284
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b3de50cd066d247a952d3373f023a5
+      internalID: 117820203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 284
+        width: 33
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd7d4b7911cd60479cbe39b437f3efb
+      internalID: 1075843506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe1bdb087b33be46b2a8fb3a6cf04c4
+      internalID: 2144410382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 227
+        width: 28
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7483804fbe8ed438b6c9b462886c19
+      internalID: 156962646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 227
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9be27983a9a0414ba35f195573b2cde
+      internalID: 409688976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 227
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56bf6ec7d415db47be5b2e3067846c5
+      internalID: -1819580685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_7
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 227
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58896370abacc834dbbc25bad1901c5c
+      internalID: 127033991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 227
+        width: 26
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5d30aa108180f43bb816727fcf96d1
+      internalID: 503888322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 28
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed91065e72f1594f9e5e035c0dd0bf0
+      internalID: -709208362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 155
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d8d13da0d17724b85661428e867191
+      internalID: -1745985536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 155
+        width: 47
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2298ea7802d5142b7ca99dc30dacfb
+      internalID: 1382429160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 155
+        width: 42
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f2d5707eee5a5478ea684b4e3a0b9b
+      internalID: -979768614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 155
+        width: 40
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5374851, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d76c68888b51bd49afb609b0139a9a1
+      internalID: 546158224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 155
+        width: 40
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e3141c622b00e4c9f5370e36df0b08
+      internalID: -811590163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_15
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 155
+        width: 43
+        height: 57
+      alignment: 9
+      pivot: {x: 0.58717525, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1357a423a6d3d914fad9ea6be01a887a
+      internalID: 1951502266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 39
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26af05a0db89e7a4dafe59bf1e28d283
+      internalID: -65098529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 89
+        width: 47
+        height: 42
+      alignment: 9
+      pivot: {x: 0.24477947, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529f1d2e93c371042ae37b70aa5d1bde
+      internalID: -824308808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 89
+        width: 49
+        height: 44
+      alignment: 9
+      pivot: {x: 0.16339532, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b816363bf2c7944a87c003f5bf361a2
+      internalID: -895377222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 89
+        width: 58
+        height: 50
+      alignment: 9
+      pivot: {x: 0.12514469, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45ce864c336ea24a83824367533cdc8
+      internalID: -1166174542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 89
+        width: 83
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69a22d7fa4843647b1ceb6b112c84b0
+      internalID: -1895425900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 126
+        width: 27
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a220fb2037ac3b2498e4a6a783b1ab4b
+      internalID: -1803732932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 84
+        height: 40
+      alignment: 9
+      pivot: {x: 0.071594186, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9134e80c7ddba14e86edaae854a737d
+      internalID: 1480578029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 46
+        width: 83
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c5047488145c948a2481c0a00e245b
+      internalID: -1988829775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 46
+        width: 75
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5253926467ce8dd4ca4965f47bd32c92
+      internalID: -1146972564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 46
+        width: 52
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35117c80bcc7aa2498ef78e2ab222c98
+      internalID: 1378159163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69f372126428354eb48c51a081a3a39
+      internalID: -2024015214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b9c35a1443269459d341b677622842
+      internalID: -200168365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bd0c83c9be9d94ca84eb6ca2c16a5a
+      internalID: -2070105443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 43
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcdd2f14f01a294fa353448e95ad7b6
+      internalID: 1702236680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_30
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217c401b3b05029448a6362015e27d04
+      internalID: 1673714780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Bone Halberd_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 33
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731fb22322d6d914e80b2f6830998cb8
+      internalID: -1508608228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_4: 156962646
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_12: -979768614
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_30: 1673714780
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_25: 1378159163
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_28: -2070105443
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_6: -1819580685
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_18: -895377222
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_23: -1988829775
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_2: 1075843506
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_20: -1895425900
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_21: -1803732932
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_19: -1166174542
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_27: -200168365
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_22: 1480578029
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_1: 117820203
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_3: 2144410382
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_11: 1382429160
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_26: -2024015214
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_10: -1745985536
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_8: 503888322
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_31: -1508608228
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_13: 546158224
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_9: -709208362
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_15: 1951502266
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_17: -824308808
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_7: 127033991
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_14: -811590163
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_0: -1224502490
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_16: -65098529
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_29: 1702236680
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_5: 409688976
+      PlayStation - Castlevania Symphony of the Night - Bone Halberd_24: -1146972564
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
