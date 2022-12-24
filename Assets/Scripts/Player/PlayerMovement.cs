@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     private GameObject playerAnimator;
     private Animator animator;
 
+    public float kBForce, kBCounter, kBTotalTime;
+    public bool knockFromRight;
+
     private void Awake()
     {
         playerAnimator = GameObject.Find("PlayerAnimator");
@@ -28,8 +31,25 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
-        rb.velocity = new Vector2(horizontal * unit.movingSpeed, rb.velocity.y);
+        // player cant move when take damage (knockback havent been recoveried)
+        if (kBCounter <= 0)
+        {
+            // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
+            rb.velocity = new Vector2(horizontal * unit.movingSpeed, rb.velocity.y);
+        }
+        else
+        {
+            animator.Play("PlayerDamaged");
+            //if(knockFromRight)
+            //    rb.velocity = new Vector2(-(kBForcex*rb.velocity.x), rb.velocity.y+ kBForcey);
+            //if(!knockFromRight)
+                rb.velocity = new Vector2(kBForce,rb.velocity.y);
+            Debug.Log(kBForce+"     " + Mathf.Abs(kBForce / 2) * kBCounter);
+
+            kBCounter -= Time.deltaTime;
+        }
+
+        
 
         // facing direction
         if (!isFacingRight && horizontal > 0f)
@@ -83,9 +103,9 @@ public class PlayerMovement : MonoBehaviour
     private void FlipSprite()
     {
         isFacingRight = !isFacingRight;
-        Vector3 localScale =playerAnimator.transform.localScale;
+        Vector3 localScale = playerAnimator.transform.parent.localScale;
         localScale.x *= -1f;
-        playerAnimator.transform.localScale = localScale;
+        playerAnimator.transform.parent.localScale = localScale;
     }
 
     public void Move( InputAction.CallbackContext context)

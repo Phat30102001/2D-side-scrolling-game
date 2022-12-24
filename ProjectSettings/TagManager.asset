@@ -14,9 +14,9 @@ TagManager:
   - UI
   - Ground
   - Interactable
-  - Damageable
-  - Player
   - 
+  - Player
+  - Enemies
   - 
   - 
   - 
