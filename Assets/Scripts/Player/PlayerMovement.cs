@@ -40,11 +40,8 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.Play("PlayerDamaged");
-            //if(knockFromRight)
-            //    rb.velocity = new Vector2(-(kBForcex*rb.velocity.x), rb.velocity.y+ kBForcey);
-            //if(!knockFromRight)
+
                 rb.velocity = new Vector2(kBForce,rb.velocity.y);
-            Debug.Log(kBForce+"     " + Mathf.Abs(kBForce / 2) * kBCounter);
 
             kBCounter -= Time.deltaTime;
         }

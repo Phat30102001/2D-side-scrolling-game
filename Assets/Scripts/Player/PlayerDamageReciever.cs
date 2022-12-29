@@ -10,13 +10,11 @@ public class PlayerDamageReciever : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             playerMovement.kBCounter = playerMovement.kBTotalTime;
-            Debug.Log("Contact damage");
+            //Debug.Log("Contact damage");
             if (collision.transform.position.x >= transform.position.x && playerMovement.kBForce > 0)
                 playerMovement.kBForce *= -1;
-            //playerMovement.knockFromRight = true;
             if (collision.transform.position.x < transform.position.x && playerMovement.kBForce<0)
                 playerMovement.kBForce *= -1;
-            //playerMovement.knockFromRight = false;
         }
         
     }
