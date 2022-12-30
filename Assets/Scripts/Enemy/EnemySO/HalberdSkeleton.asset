@@ -15,3 +15,4 @@ MonoBehaviour:
   hp: 10
   damage: 5
   movingSpeed: 3.5
+  detectRange: 5

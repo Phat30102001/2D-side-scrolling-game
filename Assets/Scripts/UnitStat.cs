@@ -8,4 +8,5 @@ public class UnitStat : ScriptableObject
     public int hp;
     public int damage;
     public float movingSpeed;
+    public float detectRange;
 }
