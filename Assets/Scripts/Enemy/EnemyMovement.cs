@@ -39,7 +39,10 @@ public class EnemyMovement : MonoBehaviour
     public void ChasePLayer()
     {
         distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
-        if (distanceToPlayer > unit.detectRange)
+
+        Debug.Log(distanceToPlayer);
+
+        if (distanceToPlayer > 5)
         {
             EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.PATROL);
         }
@@ -55,17 +58,33 @@ public class EnemyMovement : MonoBehaviour
             EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.CHASE); 
         }
         int facingSide= EnemyBehaviour.instance.CheckFacingSide(waypoint[currentWaypointIndex].transform);
+
         if (Vector2.Distance( waypoint[currentWaypointIndex].transform.position, transform.position) < .1f)
         {
+
             currentWaypointIndex++;
             if (currentWaypointIndex >= waypoint.Length)
             {
                 currentWaypointIndex = 0;
             }
+            EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.REST);
         }
+        
         transform.localScale = new Vector2(facingSide, 1);
         transform.position = Vector2.MoveTowards(transform.position, waypoint[currentWaypointIndex].transform.position, Time.deltaTime * unit.movingSpeed);
        
+    }
+
+    public IEnumerator  Rest()
+    {
+        yield return new WaitForSeconds(2f);
+        distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
+        if (distanceToPlayer <= unit.detectRange)
+        {
+            EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.CHASE);
+        }
+        else
+            EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.PATROL);
     }
 }
 

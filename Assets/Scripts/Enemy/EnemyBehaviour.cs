@@ -38,6 +38,7 @@ public class EnemyBehaviour : MonoBehaviour
         switch (state)
         {
             case EnemyState.CHASE:
+                animator.SetBool("IsRun", true);
                 enemyMovement.ChasePLayer();
                 break;
             case EnemyState.PATROL:
@@ -48,6 +49,7 @@ public class EnemyBehaviour : MonoBehaviour
                 break;
             case EnemyState.REST:
                 animator.SetBool("IsRun", false);
+                StartCoroutine( enemyMovement.Rest());
                 break;
 
         }
