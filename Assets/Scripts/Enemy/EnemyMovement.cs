@@ -39,21 +39,18 @@ public class EnemyMovement : MonoBehaviour
     public void ChasePLayer()
     {
         distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
-
-        Debug.Log(distanceToPlayer);
-
         if (distanceToPlayer > 5)
         {
             EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.PATROL);
         }
         int facingSide = EnemyBehaviour.instance.CheckFacingSide(playerTransform);
-        rb.velocity = new Vector2(unit.movingSpeed * facingSide, rb.velocity.y);
+        rb.velocity = new Vector2(unit.MovingSpeed * facingSide, rb.velocity.y);
         transform.localScale = new Vector2(facingSide, 1);
     }
     public void Patrol()
     {
         distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
-        if (distanceToPlayer <= unit.detectRange) 
+        if (distanceToPlayer <= unit.DetectRange) 
         {
             EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.CHASE); 
         }
@@ -71,7 +68,7 @@ public class EnemyMovement : MonoBehaviour
         }
         
         transform.localScale = new Vector2(facingSide, 1);
-        transform.position = Vector2.MoveTowards(transform.position, waypoint[currentWaypointIndex].transform.position, Time.deltaTime * unit.movingSpeed);
+        transform.position = Vector2.MoveTowards(transform.position, waypoint[currentWaypointIndex].transform.position, Time.deltaTime * unit.MovingSpeed);
        
     }
 
@@ -79,9 +76,10 @@ public class EnemyMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
-        if (distanceToPlayer <= unit.detectRange)
+        if (distanceToPlayer <= unit.DetectRange)
         {
             EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.CHASE);
+            Debug.Log(unit.AtiveAttackRange);
         }
         else
             EnemyBehaviour.instance.UpdateEnemyBehaivour(EnemyState.PATROL);

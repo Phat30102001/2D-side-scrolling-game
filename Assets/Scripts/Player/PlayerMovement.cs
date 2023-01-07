@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         if (kBCounter <= 0)
         {
             // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
-            rb.velocity = new Vector2(horizontal * unit.movingSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(horizontal * unit.MovingSpeed, rb.velocity.y);
         }
         else
         {
