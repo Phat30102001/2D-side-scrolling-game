@@ -18,5 +18,16 @@ public class PlayerDamageReciever : MonoBehaviour
         }
         
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            playerMovement.kBCounter = playerMovement.kBTotalTime;
+            //Debug.Log("Contact damage");
+            if (collision.transform.parent.position.x >= transform.position.x && playerMovement.kBForce > 0)
+                playerMovement.kBForce *= -1;
+            if (collision.transform.parent.position.x < transform.position.x && playerMovement.kBForce < 0)
+                playerMovement.kBForce *= -1;
+        }
+    }
 }

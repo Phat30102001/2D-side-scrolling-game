@@ -300,25 +300,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsJump
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsGround
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsHit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -631,13 +631,13 @@ AnimatorStateMachine:
     m_Position: {x: 920, y: 1000, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 39302879742286652}
-    m_Position: {x: 590, y: 700, z: 0}
+    m_Position: {x: 610, y: 700, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1635339165878371907}
     m_Position: {x: 610, y: 830, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1212909480059326894}
-    m_Position: {x: 600, y: 990, z: 0}
+    m_Position: {x: 610, y: 990, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1748339016373278631}
     m_Position: {x: 260, y: 570, z: 0}
