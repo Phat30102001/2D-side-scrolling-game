@@ -8,10 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
-    public UnitStat unit;
-
-    [SerializeField] private float horizontal;
-    [SerializeField] private float jumpingForce;
+    private float horizontal;
+    private float jumpingForce=12;
 
     //check player facing side
     private bool isFacingRight = true;
@@ -19,13 +17,17 @@ public class PlayerMovement : MonoBehaviour
     private GameObject playerAnimator;
     private Animator animator;
 
-    public float kBForce, kBCounter, kBTotalTime;
+    private UnitStatReceiver unit;
+
+    public float  kBCounter;
     public bool knockFromRight;
 
     private void Awake()
     {
         playerAnimator = GameObject.Find("PlayerAnimator");
         animator = playerAnimator.GetComponent<Animator>();
+
+        unit = GameObject.Find("PlayerStat").GetComponent<UnitStatReceiver>();
     }
 
     // Update is called once per frame
@@ -39,9 +41,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            //kBCounter = unit.KBTotalTime;
             animator.Play("PlayerDamaged");
 
-                rb.velocity = new Vector2(kBForce,rb.velocity.y);
+                rb.velocity = new Vector2(unit.KBForce,rb.velocity.y);
 
             kBCounter -= Time.deltaTime;
         }

@@ -1,17 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum EnemyState{CHASE,PATROL,ATTACK,REST}
+public enum EnemyState{CHASE,PATROL,ATTACK,REST,IDLE,DIE}
 public class EnemyBehaviour : MonoBehaviour
 {
     
     private Transform playerTransform;
     private Transform hitbox;
-    public UnitStat unit;
+    
     public EnemyState state;
-    //public static EnemyBehaviour instance;
 
-    //public UnitStat unit;
+    private UnitStatReceiver unit;
 
     private EnemyMovement enemyMovement;
 
@@ -24,6 +23,8 @@ public class EnemyBehaviour : MonoBehaviour
     private void Awake()
     {
         //instance = this;
+
+        unit = transform.GetChild(2).GetComponent<UnitStatReceiver>();
 
         enemyMovement = gameObject.GetComponent<EnemyMovement>();
         
@@ -38,32 +39,14 @@ public class EnemyBehaviour : MonoBehaviour
     }
     private void Update()
     {
+        IsDead();
+        if (state == EnemyState.REST) return;
         if (DistanceToPlayer() >= unit.DetectRange&& enemyAniEvent.CheckAttackAvailabled())
             UpdateEnemyBehaivour(EnemyState.PATROL);
         if (DistanceToPlayer() < unit.DetectRange&& DistanceToPlayer() > AtiveAttackRange()&&enemyAniEvent.CheckAttackAvailabled())
             UpdateEnemyBehaivour(EnemyState.CHASE);
         if (DistanceToPlayer() <= AtiveAttackRange())
             UpdateEnemyBehaivour(EnemyState.ATTACK);
-
-        //switch (state)
-        //{
-        //    case EnemyState.CHASE:
-        //        animator.SetBool("IsRun", true);
-        //        enemyMovement.ChasePLayer();
-        //        break;
-        //    case EnemyState.PATROL:
-        //        animator.SetBool("IsRun", true);
-        //        enemyMovement.Patrol();
-        //        break;
-        //    case EnemyState.ATTACK:
-        //        animator.Play("HalberdSkeletonAttack");
-        //        break;
-        //    case EnemyState.REST:
-        //        animator.SetBool("IsRun", false);
-        //        StartCoroutine( enemyMovement.Rest());
-        //        break;
-
-        //}
     }
 
 
@@ -84,14 +67,18 @@ public class EnemyBehaviour : MonoBehaviour
                 if (enemyAniEvent.CheckAttackAvailabled())
                 {
                     Debug.Log(enemyAniEvent.CheckAttackAvailabled());
-                    animator.Play("HalberdSkeletonAttack");
+                    animator.Play("HalberdSkeletonAttackReady");
                     //enemyAniEvent.AttackUnavailable();
-                }
-                    
+                }   
                 break;
             case EnemyState.REST:
                 animator.SetBool("IsRun", false);
                 StartCoroutine(enemyMovement.Rest());
+                break;
+            case EnemyState.IDLE:
+                break;
+            case EnemyState.DIE:
+                Destroy(transform.parent);
                 break;
 
         }
@@ -114,5 +101,10 @@ public class EnemyBehaviour : MonoBehaviour
     {
 
         return Vector2.Distance(gameObject.transform.position, hitbox.position);
+    }
+
+    void IsDead()
+    {
+        if (unit.CurrentHp <= 0) UpdateEnemyBehaivour(EnemyState.DIE);
     }
 }

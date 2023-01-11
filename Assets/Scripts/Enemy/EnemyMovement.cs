@@ -11,7 +11,7 @@ public class EnemyMovement : MonoBehaviour
     public GameObject[] waypoint;
     int currentWaypointIndex = 0;
 
-    public UnitStat unit;
+    private UnitStatReceiver unit;
 
     private EnemyBehaviour enemyBehaviour;
 
@@ -20,6 +20,8 @@ public class EnemyMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerTransform = GameObject.Find("Player").transform;
         enemyBehaviour = gameObject.GetComponent<EnemyBehaviour>();
+
+        unit = transform.GetChild(2).GetComponent<UnitStatReceiver>();
     }
 
     // Update is called once per frame
@@ -80,7 +82,7 @@ public class EnemyMovement : MonoBehaviour
         //    enemyBehaviour.UpdateEnemyBehaivour(EnemyState.CHASE);
         //}
         //else
-        //    enemyBehaviour.UpdateEnemyBehaivour(EnemyState.PATROL);
+        enemyBehaviour.UpdateEnemyBehaivour(EnemyState.IDLE);
     }
     public float DistanceToPlayer()
     {

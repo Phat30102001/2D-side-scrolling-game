@@ -15,3 +15,7 @@ MonoBehaviour:
   hp: 100
   damage: 5
   movingSpeed: 9
+  detectRange: 0
+  ativeAttackRange: 0
+  kBForce: 2
+  kBTotalTime: 0.5

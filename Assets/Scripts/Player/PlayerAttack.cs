@@ -13,11 +13,15 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask damagealbeObject;
     public float attackRadius;
 
+    private UnitStatReceiver unit;
+
     public static PlayerAttack instance;
 
     private void Awake()
     {
         instance = this;
+
+        unit = GameObject.Find("PlayerStat").GetComponent<UnitStatReceiver>();
     }
     
     private void Start()
@@ -48,7 +52,7 @@ public class PlayerAttack : MonoBehaviour
 
         foreach (Collider2D collider in detectedObjects)
         {
-            Debug.Log("Damaged");
+            collider.transform.GetChild(2).GetComponent<UnitStatReceiver>().TakeDamage(unit.Damage);
         }
     }
     private void OnDrawGizmos()
