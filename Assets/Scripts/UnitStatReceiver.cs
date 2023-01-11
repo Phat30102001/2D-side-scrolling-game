@@ -50,4 +50,12 @@ public class UnitStatReceiver : MonoBehaviour
         CurrentHp -= damageValue;
         Debug.Log("HP:" + CurrentHp);
     }
+    public void Heal(int healValue)
+    {
+        if (CurrentHp + healValue > MaxHp)
+            CurrentHp = MaxHp;
+        else
+            CurrentHp += healValue;
+        Debug.Log("HP:" + CurrentHp);
+    }
 }

@@ -65,11 +65,7 @@ public class EnemyBehaviour : MonoBehaviour
                 break;
             case EnemyState.ATTACK:
                 if (enemyAniEvent.CheckAttackAvailabled())
-                {
-                    Debug.Log(enemyAniEvent.CheckAttackAvailabled());
-                    animator.Play("HalberdSkeletonAttackReady");
-                    //enemyAniEvent.AttackUnavailable();
-                }   
+                    animator.Play("HalberdSkeletonAttackReady");   
                 break;
             case EnemyState.REST:
                 animator.SetBool("IsRun", false);
@@ -78,7 +74,7 @@ public class EnemyBehaviour : MonoBehaviour
             case EnemyState.IDLE:
                 break;
             case EnemyState.DIE:
-                Destroy(transform.parent);
+                Destroy(gameObject);
                 break;
 
         }
