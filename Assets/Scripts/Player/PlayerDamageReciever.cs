@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerDamageReciever : MonoBehaviour
 {
-    public PlayerMovement playerMovement;
     private UnitStatReceiver unit;
 
 
@@ -30,7 +29,7 @@ public class PlayerDamageReciever : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            playerMovement.kBCounter = unit.KBTotalTime;
+            PlayerMovement.instance.kBCounter = unit.KBTotalTime;
             //Debug.Log("Contact damage");
 
             //playerHealth.TakeDamage(collision.gameObject.)

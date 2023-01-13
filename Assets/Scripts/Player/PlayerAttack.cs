@@ -6,6 +6,7 @@ public class PlayerAttack : MonoBehaviour
 {
     public Animator animator;
     public bool isAttacking = false;
+    public bool isAirAttacking = false;
 
     public GameObject attackArea;
 
@@ -32,10 +33,10 @@ public class PlayerAttack : MonoBehaviour
 
     public void Attack(InputAction.CallbackContext context)
     {
-
-        if (context.performed && !isAttacking)
+        //if (!PlayerMovement.instance.IsGrounded()) return;
+        if (context.performed && !isAttacking&&PlayerMovement.instance.IsGrounded())
         {
-            //Debug.Log("0");
+            //Debug.Log(isAttacking);
             isAttacking = true;
             
         }
@@ -53,6 +54,7 @@ public class PlayerAttack : MonoBehaviour
         foreach (Collider2D collider in detectedObjects)
         {
             collider.transform.GetChild(2).GetComponent<UnitStatReceiver>().TakeDamage(unit.Damage);
+            collider.transform.GetChild(0).GetComponent<EnemyDamaged>().Flash();
         }
     }
     private void OnDrawGizmos()

@@ -203,7 +203,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.75, y: 0.8}
+  m_Size: {x: 2.425, y: 1.225}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -53925,7 +53925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f165a5bd590b53540a273f037480a01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMovement: {fileID: 332025620}
 --- !u!1 &589760897
 GameObject:
   m_ObjectHideFlags: 0
@@ -54207,6 +54206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 71434156}
   isAttacking: 0
+  isAirAttacking: 0
   attackArea: {fileID: 437071308}
   attackHitboxArea: {fileID: 437071309}
   damagealbeObject:
@@ -54605,6 +54605,7 @@ GameObject:
   - component: {fileID: 1568350971}
   - component: {fileID: 1568350970}
   - component: {fileID: 1568350972}
+  - component: {fileID: 1568350973}
   m_Layer: 10
   m_Name: EnemyAnimation
   m_TagString: Untagged
@@ -54712,6 +54713,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitBox: {fileID: 589760897}
+--- !u!114 &1568350973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568350968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3278e4df9df2408488d37db2d4ae3c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: 87a45f80cec372a42ba6eec0a9e28ffc, type: 2}
+  duration: 0.1
 --- !u!1 &1666423742
 GameObject:
   m_ObjectHideFlags: 0
@@ -63941,7 +63956,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 87a45f80cec372a42ba6eec0a9e28ffc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
+
     public Rigidbody2D rb;
     public Transform groundCheck;
     public LayerMask groundLayer;
@@ -24,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+
+        instance = this;
         playerAnimator = GameObject.Find("PlayerAnimator");
         animator = playerAnimator.GetComponent<Animator>();
 
@@ -85,17 +89,24 @@ public class PlayerMovement : MonoBehaviour
     }
     public void JumpingAnimation()
     {
-        if (rb.velocity.y < jumpingForce && rb.velocity.y > 0f)
+        if (PlayerAttack.instance.isAirAttacking)
+        {
+
+
+            return;
+        }
+        //Debug.Log(PlayerAttack.instance.isAirAttacking);
+        if (rb.velocity.y < jumpingForce && rb.velocity.y > 0f )
         {
             animator.SetBool("IsJump", true);
         }
-        if (rb.velocity.y < 0f)
+        if (rb.velocity.y < 0f )
         {
             animator.SetBool("IsJump", false);
         }
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
