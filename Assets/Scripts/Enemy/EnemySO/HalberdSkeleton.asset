@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91cb0a44ea8a5e141a4770fdc45e0e2f, type: 3}
   m_Name: HalberdSkeleton
   m_EditorClassIdentifier: 
-  hp: 10
-  damage: 5
+  hp: 5
+  damage: 1
   movingSpeed: 3.5
   detectRange: 7
   ativeAttackRange: 5
+  kBForce: 0
+  kBTotalTime: 0

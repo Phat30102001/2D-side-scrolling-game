@@ -16,7 +16,7 @@ public class PlayerHeal : MonoBehaviour
     {
         if (context.performed)
         {
-            unit.Heal(5);
+            unit.Heal(1);
         }
     }
 }

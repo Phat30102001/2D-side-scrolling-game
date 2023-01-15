@@ -41,7 +41,7 @@ public class UnitStatReceiver : MonoBehaviour
 
 
 
-        Debug.Log(stat.Damage);
+        //Debug.Log(stat.Damage);
         Debug.Log(Damage + " " + MovingSpeed + " " + DetectRange + " " + AtiveAttackRange + " " + CurrentHp + " " + MaxHp);
     }
 
