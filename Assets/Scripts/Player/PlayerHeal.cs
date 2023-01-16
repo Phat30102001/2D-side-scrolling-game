@@ -7,16 +7,22 @@ public class PlayerHeal : MonoBehaviour
 {
     private UnitStatReceiver unit;
 
+    public static PlayerHeal instance;
+
     private void Awake()
     {
         unit = GameObject.Find("PlayerStat").GetComponent<UnitStatReceiver>();
+
+        instance = this;
     }
 
-    public void Heal(InputAction.CallbackContext context)
+    public void Healing(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
-            unit.Heal(1);
+
+
+            StartCoroutine(unit.Heal(1));
         }
     }
 }

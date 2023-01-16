@@ -9,6 +9,8 @@ public class UnitStatReceiver : MonoBehaviour
     [SerializeField] private int currentHp;
     [SerializeField] private int maxHp;
     [SerializeField] private int damage;
+    [SerializeField] private int money;
+
     [SerializeField] private float movingSpeed;
     [SerializeField] private float detectRange;
     [SerializeField] private float ativeAttackRange;
@@ -19,12 +21,13 @@ public class UnitStatReceiver : MonoBehaviour
 
     public int CurrentHp { get => currentHp;private set => currentHp = value; }
     public int MaxHp { get => maxHp;private set => maxHp = value; }
-    public int Damage { get => stat.Damage;private set => damage = value; }
+    public int Damage { get => damage;private set => damage = value; }
     public float MovingSpeed { get => movingSpeed;private set => movingSpeed = value; }
     public float DetectRange { get => detectRange;private set => detectRange = value; }
     public float AtiveAttackRange { get => ativeAttackRange;private set => ativeAttackRange = value; }
     public float KBForce { get => kBForce; set => kBForce = value; }
     public float KBTotalTime { get => kBTotalTime; set => kBTotalTime = value; }
+    public int Money { get => money; set => money = value; }
 
     private void Start()
     {
@@ -32,6 +35,7 @@ public class UnitStatReceiver : MonoBehaviour
         this.currentHp = maxHp;
 
         this.damage = stat.Damage;
+        this.money = stat.Money;
         this.movingSpeed = stat.MovingSpeed;
         this.detectRange = stat.DetectRange;
         this.ativeAttackRange = stat.AtiveAttackRange;
@@ -50,12 +54,29 @@ public class UnitStatReceiver : MonoBehaviour
         CurrentHp -= damageValue;
         Debug.Log("HP:" + CurrentHp);
     }
-    public void Heal(int healValue)
+    public IEnumerator Heal(int healValue)
     {
+        Debug.Log("HP:" + CurrentHp);
+
+        yield return new WaitForSeconds(1f);
+
         if (CurrentHp + healValue > MaxHp)
             CurrentHp = MaxHp;
         else
             CurrentHp += healValue;
         Debug.Log("HP:" + CurrentHp);
+    }
+
+    public void TransferMoney(int value)
+    {
+        Money += value;
+    }
+
+    public bool IsDead()
+    {
+        if(CurrentHp<=0)
+                return true;
+        else
+            return false;
     }
 }

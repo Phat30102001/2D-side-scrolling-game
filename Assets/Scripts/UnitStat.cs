@@ -7,6 +7,7 @@ public class UnitStat : ScriptableObject
 {
     [SerializeField] private int hp;
     [SerializeField] private int damage;
+    [SerializeField] private int money;
     [SerializeField] private float movingSpeed;
     [SerializeField] private float detectRange;
     [SerializeField] private float ativeAttackRange;
@@ -23,6 +24,7 @@ public class UnitStat : ScriptableObject
     public float AtiveAttackRange { get => ativeAttackRange; set => ativeAttackRange = value; }
     public float KBForce { get => kBForce; set => kBForce = value; }
     public float KBTotalTime { get => kBTotalTime; set => kBTotalTime = value; }
+    public int Money { get => money; set => money = value; }
 
 
     //public float AtiveAttackRange 

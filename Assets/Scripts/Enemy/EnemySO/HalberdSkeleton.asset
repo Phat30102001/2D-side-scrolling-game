@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 5
   damage: 1
+  money: 10
   movingSpeed: 3.5
   detectRange: 7
   ativeAttackRange: 5

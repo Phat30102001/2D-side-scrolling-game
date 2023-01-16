@@ -31,7 +31,7 @@ public class PlayerAttack : MonoBehaviour
         //attackArea.SetActive(false);
     }
 
-    public void Attack(InputAction.CallbackContext context)
+    public void Attacking(InputAction.CallbackContext context)
     {
         //if (!PlayerMovement.instance.IsGrounded()) return;
         if (context.performed && !isAttacking&&PlayerMovement.instance.IsGrounded())
@@ -53,7 +53,12 @@ public class PlayerAttack : MonoBehaviour
 
         foreach (Collider2D collider in detectedObjects)
         {
-            collider.transform.GetChild(2).GetComponent<UnitStatReceiver>().TakeDamage(unit.Damage);
+            UnitStatReceiver enemyStat = collider.transform.GetChild(2).GetComponent<UnitStatReceiver>();
+
+            enemyStat.TakeDamage(unit.Damage);
+            if (enemyStat.CurrentHp <= 0)
+                unit.TransferMoney(enemyStat.Money); 
+            
             collider.transform.GetChild(0).GetComponent<EnemyDamaged>().Flash();
         }
     }
