@@ -46,17 +46,17 @@ public class UnitStatReceiver : MonoBehaviour
 
 
         //Debug.Log(stat.Damage);
-        Debug.Log(Damage + " " + MovingSpeed + " " + DetectRange + " " + AtiveAttackRange + " " + CurrentHp + " " + MaxHp);
+        //Debug.Log(Damage + " " + MovingSpeed + " " + DetectRange + " " + AtiveAttackRange + " " + CurrentHp + " " + MaxHp);
     }
 
     public void TakeDamage(int damageValue)
     {
         CurrentHp -= damageValue;
-        Debug.Log("HP:" + CurrentHp);
+        //Debug.Log("HP:" + CurrentHp);
     }
     public IEnumerator Heal(int healValue)
     {
-        Debug.Log("HP:" + CurrentHp);
+        //Debug.Log("HP:" + CurrentHp);
 
         yield return new WaitForSeconds(1f);
 

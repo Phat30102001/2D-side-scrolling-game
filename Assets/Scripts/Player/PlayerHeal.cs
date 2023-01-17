@@ -16,13 +16,8 @@ public class PlayerHeal : MonoBehaviour
         instance = this;
     }
 
-    public void Healing(InputAction.CallbackContext context)
+    public void Healing()
     {
-        if (context.performed)
-        {
-
-
-            StartCoroutine(unit.Heal(1));
-        }
+        StartCoroutine(unit.Heal(1));
     }
 }

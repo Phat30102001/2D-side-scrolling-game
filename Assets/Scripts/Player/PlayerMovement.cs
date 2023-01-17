@@ -40,8 +40,10 @@ public class PlayerMovement : MonoBehaviour
         // player cant move when take damage (knockback havent been recoveried)
         if (kBCounter <= 0)
         {
+            this.horizontal = InputManager.instance.Horizontal;
             // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
             rb.velocity = new Vector2(horizontal * unit.MovingSpeed, rb.velocity.y);
+            animator.SetFloat("IsRun", Mathf.Abs(horizontal));
         }
         else
         {
@@ -74,19 +76,30 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsGround", true);
     }
 
-    public void Jump(InputAction.CallbackContext context)
-    {
-        if (context.performed && IsGrounded())
-        {
-            rb.AddForce(Vector2.up * jumpingForce, ForceMode2D.Impulse);
-        }
+    //public void Jump(InputAction.CallbackContext context)
+    //{
+    //    if (context.performed && IsGrounded())
+    //    {
+    //        rb.AddForce(Vector2.up * jumpingForce, ForceMode2D.Impulse);
+    //    }
         
-        // reduce jump height when player didm't hold jump button (jump cut)
-        if(context.canceled && rb.velocity.y > 0)
-        {
-            rb.AddForce(Vector2.down * rb.velocity.y * 0.9f, ForceMode2D.Impulse);
-        }
+    //    // reduce jump height when player didn't hold jump button (jump cut)
+    //    if(context.canceled && rb.velocity.y > 0)
+    //    {
+    //        rb.AddForce(Vector2.down * rb.velocity.y * 0.9f, ForceMode2D.Impulse);
+    //    }
+    //}
+
+    public void Jumping()
+    {
+        rb.AddForce(Vector2.up * jumpingForce, ForceMode2D.Impulse);
     }
+
+    public void JumpCancel()
+    {
+        rb.AddForce(Vector2.down * rb.velocity.y * 0.9f, ForceMode2D.Impulse);
+    }
+
     public void JumpingAnimation()
     {
         if (PlayerAttack.instance.isAirAttacking)
@@ -119,10 +132,10 @@ public class PlayerMovement : MonoBehaviour
         playerAnimator.transform.parent.localScale = localScale;
     }
 
-    public void Move( InputAction.CallbackContext context)
-    {
-        horizontal = context.ReadValue<Vector2>().x;
-        //horizontal's always = 1
-        animator.SetFloat("IsRun", Mathf.Abs(horizontal));
-    }
+    //public void Move( InputAction.CallbackContext context)
+    //{
+    //    horizontal = context.ReadValue<Vector2>().x;
+    //    //horizontal's always = 1
+    //    animator.SetFloat("IsRun", Mathf.Abs(horizontal));
+    //}
 }

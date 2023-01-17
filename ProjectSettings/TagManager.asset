@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Interactable
   - 
   - Player
-  - Enemies
+  - Enemies/NPC
   - 
   - 
   - 
@@ -54,7 +55,7 @@ TagManager:
   - name: Interactable
     uniqueID: 1411551707
     locked: 0
-  - name: Enemy
+  - name: Enemy/NPC
     uniqueID: 1511647379
     locked: 0
   - name: Character

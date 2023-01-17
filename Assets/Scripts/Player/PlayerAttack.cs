@@ -31,15 +31,9 @@ public class PlayerAttack : MonoBehaviour
         //attackArea.SetActive(false);
     }
 
-    public void Attacking(InputAction.CallbackContext context)
+    public void Attacking()
     {
-        //if (!PlayerMovement.instance.IsGrounded()) return;
-        if (context.performed && !isAttacking&&PlayerMovement.instance.IsGrounded())
-        {
-            //Debug.Log(isAttacking);
-            isAttacking = true;
-            
-        }
+        isAttacking = true;
     }
 
     //public void AtiveHitbox(bool isAttacking)
@@ -53,6 +47,7 @@ public class PlayerAttack : MonoBehaviour
 
         foreach (Collider2D collider in detectedObjects)
         {
+            if (collider.tag != "Enemy") return;
             UnitStatReceiver enemyStat = collider.transform.GetChild(2).GetComponent<UnitStatReceiver>();
 
             enemyStat.TakeDamage(unit.Damage);
