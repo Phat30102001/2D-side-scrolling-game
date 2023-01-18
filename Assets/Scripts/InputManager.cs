@@ -9,11 +9,13 @@ public class InputManager : MonoBehaviour
 
     public Rigidbody2D rb;
     //public GameObject npc;
+    public PlayerInventory inventory;
 
     private float horizontal;
     private bool messageBoardOpened;
 
     private GameObject npc;
+    private GameObject item;
 
 
     private void Awake()
@@ -23,6 +25,9 @@ public class InputManager : MonoBehaviour
 
     public float Horizontal { get => horizontal; set => horizontal = value; }
     public GameObject Npc { get => npc; set => npc = value; }
+    public bool MessageBoardOpened { get => messageBoardOpened; set => messageBoardOpened = value; }
+    public GameObject Item { get => item; set => item = value; }
+
     public void Move(InputAction.CallbackContext context)
     {
         Horizontal= context.ReadValue<Vector2>().x;
@@ -62,32 +67,36 @@ public class InputManager : MonoBehaviour
         if (context.performed)
         {
             NPCDetect();
+            ItemDetect();
         }
     }
 
     public void NPCDetect()
     {
-        //foreach (NPCBehaviour npc in Object.FindObjectsOfType(typeof(NPCBehaviour)))
-        //{
-        if (npc == null) return;
+        if (Npc == null) return;
 
-        NPCBehaviour nPCBehaviour = npc.GetComponent<NPCBehaviour>();
+        NPCBehaviour nPCBehaviour = Npc.GetComponent<NPCBehaviour>();
 
         if (nPCBehaviour.state != NPCState.TALKABLE) return;
 
-        if (!messageBoardOpened)
+        if (!MessageBoardOpened)
         {
-            npc.gameObject.GetComponent<NPCDialog>().StartDialog();
-            messageBoardOpened = true;
+            Npc.gameObject.GetComponent<NPCDialog>().StartDialog();
+            MessageBoardOpened = true;
         }
         else
             FindObjectOfType<DialogManager>().NextMessage();
+    }
+    
+    public void ItemDetect()
+    {        
+        //if (Item == null) return;
+        PlayerDetect playerDetect = Item.GetComponent<PlayerDetect>();
+        if (!playerDetect.Detect()) return;
+        ItemSOReceiver itemSO = Item.GetComponent<ItemSOReceiver>();
 
-        //}
+        inventory.AddItem(itemSO);
+        //Debug.Log("item detected");
     }
 
-    public void GetInteractableObject(GameObject npc)
-    {
-        if (npc == null) return;
-    }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class NPCDialog : MonoBehaviour
 {
     public Message[] message;
-
+ 
     public void StartDialog()
     {
         FindObjectOfType <DialogManager>().OpenDialog(message);
@@ -15,7 +15,9 @@ public class NPCDialog : MonoBehaviour
 [System.Serializable]
 public class Message
 {
-    public int actorID;
+    //public int actorID;
     public int phase;
     public string mess;
 }
+
+

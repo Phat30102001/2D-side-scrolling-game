@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum NPCState {IDLE, TALKABLE, AUTOTALK }
+public enum NPCState {IDLE, TALKABLE, GIVECHOICE }
 
 public class NPCBehaviour : MonoBehaviour
 {
-    public static NPCBehaviour instance;
+    //public static NPCBehaviour instance;
 
     public NPCState state;
 
@@ -15,7 +15,7 @@ public class NPCBehaviour : MonoBehaviour
 
     public bool playerDetect;
 
-    public InputManager input;
+    private InputManager input;
 
     private Transform playerTransform;
     private UnitStatReceiver unit;
@@ -24,10 +24,11 @@ public class NPCBehaviour : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        //instance = this;
 
         playerTransform = GameObject.Find("Player").transform;
         unit= transform.GetChild(1).GetComponent<UnitStatReceiver>();
+        input = GameObject.Find("InputManager").GetComponent<InputManager>();
     }
 
     private void Start()
@@ -57,6 +58,8 @@ public class NPCBehaviour : MonoBehaviour
             case NPCState.TALKABLE:
                 input.Npc = gameObject;
                 talkButton.SetActive(true);
+                break;
+            case NPCState.GIVECHOICE:
                 break;
 
         }

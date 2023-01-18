@@ -6,18 +6,18 @@ public class UnitStatReceiver : MonoBehaviour
 {
     public UnitStat stat;
 
-    [SerializeField] private int currentHp;
-    [SerializeField] private int maxHp;
-    [SerializeField] private int damage;
-    [SerializeField] private int money;
+     private int currentHp;
+     private int maxHp;
+     private int damage;
+     private int money;
 
-    [SerializeField] private float movingSpeed;
-    [SerializeField] private float detectRange;
-    [SerializeField] private float ativeAttackRange;
+     private float movingSpeed;
+     private float detectRange;
+     private float ativeAttackRange;
 
     // player only
-    [SerializeField] private float kBForce;
-    [SerializeField] private float kBTotalTime;
+     private float kBForce;
+     private float kBTotalTime;
 
     public int CurrentHp { get => currentHp;private set => currentHp = value; }
     public int MaxHp { get => maxHp;private set => maxHp = value; }

@@ -36,9 +36,10 @@ public class DialogManager : MonoBehaviour
         else
         {
 
-            animator.Play("dialBoardFadeOut");
+            animator.SetBool("fadeIn", false);
             Debug.Log("End");
-            activeMessage = 0;
+
+            InputManager.instance.MessageBoardOpened = false;
 
         }
             
