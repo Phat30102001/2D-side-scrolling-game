@@ -6,7 +6,7 @@ public class PlayerDetect : MonoBehaviour
 {
     private Transform player;
 
-    public GameObject pickUpBtn;
+    public GameObject Btn;
 
     private void Awake()
     {
@@ -15,7 +15,7 @@ public class PlayerDetect : MonoBehaviour
 
     private void Update()
     {
-        pickUpBtn.SetActive(Detect());
+        Btn.SetActive(Detect());
     }
 
     public bool Detect()

@@ -90,13 +90,25 @@ public class InputManager : MonoBehaviour
     
     public void ItemDetect()
     {        
-        //if (Item == null) return;
+        if (Item == null) return;
         PlayerDetect playerDetect = Item.GetComponent<PlayerDetect>();
         if (!playerDetect.Detect()) return;
-        ItemSOReceiver itemSO = Item.GetComponent<ItemSOReceiver>();
+        switch (Item.tag)
+        {
+            case "Interactable":
+                ItemSOReceiver itemSO = Item.GetComponent<ItemSOReceiver>();
+                inventory.AddItem(itemSO);
+                break;
+            case "Gate":
+                Debug.Log("door");
+                DoorOpenSide door = Item.GetComponent<DoorOpenSide>();
+                door.OpenDoor();
+                break;
+        }
 
-        inventory.AddItem(itemSO);
         //Debug.Log("item detected");
     }
+    
+
 
 }
