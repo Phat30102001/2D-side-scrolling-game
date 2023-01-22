@@ -65,7 +65,7 @@ public class EnemyBehaviour : MonoBehaviour
                 break;
             case EnemyState.ATTACK:
                 if (enemyAniEvent.CheckAttackAvailabled())
-                    animator.Play("HalberdSkeletonAttackReady");   
+                    animator.Play("EnemyAttackReady");   
                 break;
             case EnemyState.REST:
                 animator.SetBool("IsRun", false);

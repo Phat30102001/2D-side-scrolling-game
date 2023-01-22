@@ -13,7 +13,7 @@ public class UnitStatReceiver : MonoBehaviour
 
      private float movingSpeed;
      private float detectRange;
-     private float ativeAttackRange;
+     //private float ativeAttackRange;
 
     // player only
      private float kBForce;
@@ -24,7 +24,7 @@ public class UnitStatReceiver : MonoBehaviour
     public int Damage { get => damage;private set => damage = value; }
     public float MovingSpeed { get => movingSpeed;private set => movingSpeed = value; }
     public float DetectRange { get => detectRange;private set => detectRange = value; }
-    public float AtiveAttackRange { get => ativeAttackRange;private set => ativeAttackRange = value; }
+    //public float AtiveAttackRange { get => ativeAttackRange;private set => ativeAttackRange = value; }
     public float KBForce { get => kBForce; set => kBForce = value; }
     public float KBTotalTime { get => kBTotalTime; set => kBTotalTime = value; }
     public int Money { get => money; set => money = value; }
@@ -38,7 +38,7 @@ public class UnitStatReceiver : MonoBehaviour
         this.money = stat.Money;
         this.movingSpeed = stat.MovingSpeed;
         this.detectRange = stat.DetectRange;
-        this.ativeAttackRange = stat.AtiveAttackRange;
+        //this.ativeAttackRange = stat.AtiveAttackRange;
 
         this.kBForce = stat.KBForce;
         this.kBTotalTime = stat.KBTotalTime;
