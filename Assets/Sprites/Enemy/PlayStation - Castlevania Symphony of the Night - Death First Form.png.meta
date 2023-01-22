@@ -1,0 +1,3017 @@
+fileFormatVersion: 2
+guid: 2b39690bf08b2b640b010e5a894180fe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 611
+        width: 48
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb41b79d4b933943a99ae054fdb899a
+      internalID: -711267714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 611
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e029bfabfda2c6e44b671202690499f5
+      internalID: 318576635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 610
+        width: 48
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb35f1162af0b2498ece8dcfa350aec
+      internalID: 1450313859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 610
+        width: 48
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fc604ba39f080499046cf174fdb644
+      internalID: 1218160633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 610
+        width: 45
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaf6ebb68af0664698b3fbc4b6652df
+      internalID: -1685198414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 610
+        width: 44
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a66ae223076a6847a7681d212a45baf
+      internalID: 382045179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 614
+        width: 62
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c14ac1bc62a154428b1c9c2b88eb57f
+      internalID: -2127431292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 614
+        width: 66
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d2d2b9ebbc6794f9f9ff05ab68ada5
+      internalID: 1561748178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_8
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 617
+        width: 67
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fe97e51de5c7d46b37fc9ebf8aa523
+      internalID: 1474251221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 614
+        width: 64
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a14a149943eccc48a737f3424b41163
+      internalID: 325516664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_10
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 614
+        width: 68
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebe98de68b5e574e8faeb639f75164c
+      internalID: -748679079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_11
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 617
+        width: 67
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18c84c2537166c4cba4fea0278844a2
+      internalID: -431115607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 502
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4222d4be1aca94491ed0df71dc485a
+      internalID: 1718276165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 502
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003a1277d2fc52942a69b112da20da45
+      internalID: -966908350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 501
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09544f5892d2b3b4cb05d6814d7f4c19
+      internalID: 1220115729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 501
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c551b221076ac342a3a382282705647
+      internalID: 1622748081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 501
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905251873c79bf488fbbc3d4a25cd29
+      internalID: 1134016179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 501
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b4268fa044ea242b65f349765a3b91
+      internalID: 125836849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 501
+        width: 34
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a131e82ecbeac884f8ba2062a8a23b77
+      internalID: 878658767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 502
+        width: 34
+        height: 91
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07315a719449b74f907ea5c2e52c0b5
+      internalID: 913554218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_20
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 501
+        width: 38
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77731e4f127e3f340bef2ee4f27ba839
+      internalID: 403049413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_21
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 555
+        width: 11
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b117269aa79044e449d1c57933113371
+      internalID: 334985538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_22
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 555
+        width: 10
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceb4da7c70ed6545b7f9e61288ad352
+      internalID: 2076574739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_23
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 555
+        width: 13
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a936e63cc8c561347867a31fa3eab1cb
+      internalID: 144431863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_24
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 555
+        width: 11
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f589fefca8f3f554ab52d0424921158b
+      internalID: 1838394407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_25
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 555
+        width: 11
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc29b7ac6685e6949a4dbb69d1732a85
+      internalID: -1341666558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_26
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 551
+        width: 4
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831d0471125457a4994b55c8f169b80a
+      internalID: 236786067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 555
+        width: 14
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf325cf7c46f1e41833312071eb255f
+      internalID: -2114907173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 555
+        width: 6
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f149e1828d829449027c368cd21c6f
+      internalID: -674091238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_29
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 555
+        width: 8
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d602f6a2521dba34883c7037c683e1e3
+      internalID: -1302400440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_30
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 555
+        width: 6
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed3cc2e4e4bd1449615d0d9a08063e
+      internalID: -2146809731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_31
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 555
+        width: 9
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab4afe901fae4e419f4a0776d7442ad
+      internalID: -201682877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_32
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 555
+        width: 9
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6903e3b4c1a4d4faa110a9ec373201
+      internalID: 1770533472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_33
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 555
+        width: 6
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e900c56da5edb4fa5e6a659976bbf4
+      internalID: -396757800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_34
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 555
+        width: 15
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621446b53880ef645bf4f254f6ac93f8
+      internalID: 101654755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_35
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 551
+        width: 4
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cedf3298717d27498695ef1672e0938
+      internalID: -1029138581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_36
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 538
+        width: 12
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a83623732528c4ea9886673dabb8e9
+      internalID: -115586206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_37
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 535
+        width: 7
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c5e204790023647aca64c03be22266
+      internalID: 123257985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_38
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 535
+        width: 7
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc012bc2c23d3a45b307fddecabc4b8
+      internalID: -1289830539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_39
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 538
+        width: 7
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f55e6d1be4c074489da8806777419d6
+      internalID: -25432762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_40
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 538
+        width: 7
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b9e686f95be9042b6793d737d93286
+      internalID: -985574833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_41
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 538
+        width: 7
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3470929ed50cb674fb305539aecdc4b6
+      internalID: 1093729795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_42
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 535
+        width: 7
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6f31e2afb68fe44baafab67925b214
+      internalID: -116028315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_43
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 538
+        width: 7
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2973f38208472fa408a3933895fdbbe9
+      internalID: 2044770211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_44
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 535
+        width: 11
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08d24428ddb6764d829297b52343d35
+      internalID: 953799418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_45
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 538
+        width: 7
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d6986f26ffa9047aafd6f3362be93b
+      internalID: -1760875396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_46
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 535
+        width: 7
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a799e49e867f140afdcbc996942b17
+      internalID: -1332704933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_47
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 538
+        width: 7
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe65f9aa1842a7e40a61c7d6ec6aac9f
+      internalID: 1216346268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_48
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 538
+        width: 6
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567bea1915da76d4cb6b84cfabf5f4bc
+      internalID: 1843955366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_49
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 538
+        width: 7
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76e64f08e85b4b4db62d6f57cc6fc1f
+      internalID: -742208451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_50
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 538
+        width: 7
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7204448d2905746a9747c19340cc5f
+      internalID: 1712047704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_51
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 382
+        width: 48
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a430ae15ad7404ebe095c9acd143d3
+      internalID: 338747344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_52
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 382
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa0cfcba1b04134b81c672adbcb8132
+      internalID: 872964252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_53
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 381
+        width: 48
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2df54dc0f70d347b1dbce89d1365b0
+      internalID: 1520048619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 381
+        width: 48
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d730c78ad73df4798bb20fd468bbda
+      internalID: -79021314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 381
+        width: 45
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e5384163327764a9471a71ff5cf386
+      internalID: 14084815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_56
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 381
+        width: 44
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8d941fd2f2e4c4a914438c05a325a7
+      internalID: 1522464421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_57
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 382
+        width: 48
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f61c382fa5fd3d4f83c026d982327a3
+      internalID: 1878631958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_58
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 382
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f92e6b918352e047ba393919ba48484
+      internalID: 1546085197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_59
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 381
+        width: 48
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae14693aa1843c42bb6e0b7b3f59f4d
+      internalID: 1723490030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_60
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 381
+        width: 48
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8496823e54fe5124ea9eef963b4e4dad
+      internalID: -1300618296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_61
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 381
+        width: 45
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c4fb1c39d3a4e4ebaa1e01e985a9e4
+      internalID: -1466756960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_62
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 381
+        width: 44
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f451164dd56002498db40af84590dd5
+      internalID: 1495282228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_63
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 266
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f41f44f8bd06d489e8217ec56bd9ac
+      internalID: 1943398254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_64
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 266
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce86424f4ecc9a418456667f8f75ada
+      internalID: -1436645382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_65
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2347e68927d38540ab9576554bf640c
+      internalID: 1105066963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_66
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a8844de3ca3af4d8da5ebf151763fa
+      internalID: -1003845658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d139116d5d2bd594984de0452053a517
+      internalID: 1614691507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_68
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06413da2a07f634aaf1e5add721ba0f
+      internalID: 882650396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_69
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 266
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa0d72ae6b5d2245850e0c120d5eb45
+      internalID: 579916316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_70
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 266
+        width: 47
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c2a2f804645ff41a7d1834d6df42cd
+      internalID: -1564294716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_71
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d17306ece7f1646a3d403d70584904
+      internalID: 1136261383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_72
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4190a7480e13dab44bc37a0b2e80c51b
+      internalID: 146939714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_73
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9917848b15223174687f35e72027ecb4
+      internalID: 165153688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_74
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 265
+        width: 47
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb5ee673df75e24280786ff5a4353d4
+      internalID: -1380459987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_75
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 153
+        width: 74
+        height: 91
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56e3f7638aa6304785345ff7e19ae47
+      internalID: -1282980877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 155
+        width: 79
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10aa44d42101ca4ab7e215bdd248287
+      internalID: -2032381284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_77
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 158
+        width: 85
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837b3d6e4f949d445af9a6576c554177
+      internalID: 1070018947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_78
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 158
+        width: 79
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdf4b1cd9337ae4fad62374e29e304f
+      internalID: -1706961050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_79
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 161
+        width: 85
+        height: 83
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665afa3d11bfa5448a9e21b70ce5f3a4
+      internalID: -1206277345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_80
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 158
+        width: 85
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d50222fafbc207468bfef05277d88b4
+      internalID: 1783318375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_81
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 158
+        width: 85
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54079a0a997c97e47a9bede848f88816
+      internalID: 1067747735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_82
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 102
+        width: 21
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428aa1394aef423468d08af099a27e63
+      internalID: 737473575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 100
+        width: 12
+        height: 12
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ff3cf92042a894bbecb4ba80fe1fd4
+      internalID: -547061395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 98
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d089d220def0214faa091dbd7c72a07
+      internalID: 1852844678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_85
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 95
+        width: 22
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07607b9c3c41134fbc1b15da8aff760
+      internalID: 873703766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_86
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 98
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310597d3864fd8942a7f8af7cdb862af
+      internalID: 597551009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_87
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 95
+        width: 18
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8142bcb669e4ef46aeff526595a8680
+      internalID: 1289277867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_88
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 94
+        width: 19
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff87b21ea5735004ab8c29bd3ca02cd1
+      internalID: -1591648992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_89
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 96
+        width: 20
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d816137684db84ebdb6a7408bf23dd
+      internalID: -1975454516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_90
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 30
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92227212779198409b4d8d9af2512c6
+      internalID: 731512611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_91
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 92
+        width: 14
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836cf04cc13b5e4baea34ebdcd431a2
+      internalID: -848141233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_92
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 106
+        width: 12
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54ec98d227b210498616e19b36009fd
+      internalID: -1252526178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_93
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 104
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff39e5526a1a75a4ba4d46437f87e247
+      internalID: 1812593733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_94
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 105
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60362073353fc8247b5e56027b0519ce
+      internalID: 1787528769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_95
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 103
+        width: 9
+        height: 9
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ae695c3702774ca285274d03cc570
+      internalID: -179342769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_96
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 101
+        width: 13
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e3596e589b5245bcd2eea8c79104c
+      internalID: 1733089441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_97
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 97
+        width: 21
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e44343bbaf455f4696fc78e81836dc6
+      internalID: -736012632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_98
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 93
+        width: 29
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf0a590c6372744c9bf4438a8b3a7bb
+      internalID: -349959610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_99
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 91
+        width: 33
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450cba7f24b18a2469a1c65041b0060a
+      internalID: -156280340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_100
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 91
+        width: 33
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5a62db9869e74d9b89ddf2b22b955
+      internalID: -683636622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_101
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 91
+        width: 33
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede5cecaa013c4e479d20ffbd34e66c3
+      internalID: -2137849486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_102
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 90
+        width: 34
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff9d9c258eac4844a870f7bcd9249d4
+      internalID: 791454247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_103
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 90
+        width: 34
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bad5b6c9ab82e4885ed75236fc296e
+      internalID: -600241960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_104
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 88
+        width: 38
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71766ea24e34233428c549513e5ac3c2
+      internalID: 1105576302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_105
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 84
+        width: 46
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc0f157df3408a4ebaab0eab23f435a
+      internalID: 1486210725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_106
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 78
+        width: 58
+        height: 58
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736a8989ab9e17047a7c462ea2a11d97
+      internalID: 1742938744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_107
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 93
+        width: 11
+        height: 12
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb587e590f4bce41b05c6a38a1605cc
+      internalID: 982884819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_108
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 28
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3c3cc2af1f6ed41baed113dcff5049
+      internalID: 541468434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_109
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 16
+        width: 31
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9854409400d0ea1469a00cf75d85a4c7
+      internalID: -1502987794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_110
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 16
+        width: 33
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7844175f94a1e924d96bf7f0ca1f5934
+      internalID: -935378649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_111
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 16
+        width: 35
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb637ff65d76fc445b97f009617dbfe1
+      internalID: -1227798839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_112
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 16
+        width: 37
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90604c88f552712469062102bfe8549c
+      internalID: 1249769311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_113
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 16
+        width: 35
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69461896d02f76e459b59465b13fed17
+      internalID: -1562148127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_114
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 16
+        width: 33
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778b0ef5e1921b74796253888962b9f7
+      internalID: -807332010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_115
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 17
+        width: 31
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3311b21b644e2045a1b30bda12ecfa5
+      internalID: 1210121507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_116
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 17
+        width: 28
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b80d7b33042184191c720b672c2dce
+      internalID: -1951164298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_117
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 16
+        width: 26
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0221aa51d216f814296e83dc7cff7e24
+      internalID: 2054537912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_118
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 12
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c7fbbd4e73cd7489d3af8c55241733
+      internalID: 1020843642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_119
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 10
+        width: 22
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a5c34783e83e94bb29bc088ec77081
+      internalID: 215340011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_120
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 8
+        width: 21
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ea8db60a3a1174485dfe41a527e164
+      internalID: 1736964779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_121
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 7
+        width: 21
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062142b088cbc764685e3a9d2a4004a9
+      internalID: -2003287596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_122
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 8
+        width: 22
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd26e191473c54d95b5f15efcad6f1
+      internalID: 576254090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_123
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 8
+        width: 22
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5f6cfaed907f340a3c00b1e942dab5
+      internalID: 1034668017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_124
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 8
+        width: 22
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11208588a1b87db4a951fa7e97c2f57f
+      internalID: -1992703884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_125
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 8
+        width: 22
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604facba96898944aa142cd27405d48e
+      internalID: 778014810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_126
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 8
+        width: 22
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3537ce71ab0154a8e2f4dbca996089
+      internalID: 1074538665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_127
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 8
+        width: 22
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b808794700c50342adfe065ab1120b7
+      internalID: 523689564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_128
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 8
+        width: 22
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c58141ea3fe09f468e88393f5ab5269
+      internalID: -562897947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_129
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 8
+        width: 22
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462ad0ac18edfbc49ba742c38fc32700
+      internalID: 1517034608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Death First Form_130
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 11
+        width: 12
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c555449fb77a0b4199e3c2c0b778fcd
+      internalID: 1726366897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlayStation - Castlevania Symphony of the Night - Death First Form_100: -683636622
+      PlayStation - Castlevania Symphony of the Night - Death First Form_59: 1723490030
+      PlayStation - Castlevania Symphony of the Night - Death First Form_23: 144431863
+      PlayStation - Castlevania Symphony of the Night - Death First Form_21: 334985538
+      PlayStation - Castlevania Symphony of the Night - Death First Form_46: -1332704933
+      PlayStation - Castlevania Symphony of the Night - Death First Form_98: -349959610
+      PlayStation - Castlevania Symphony of the Night - Death First Form_26: 236786067
+      PlayStation - Castlevania Symphony of the Night - Death First Form_27: -2114907173
+      PlayStation - Castlevania Symphony of the Night - Death First Form_120: 1736964779
+      PlayStation - Castlevania Symphony of the Night - Death First Form_71: 1136261383
+      PlayStation - Castlevania Symphony of the Night - Death First Form_36: -115586206
+      PlayStation - Castlevania Symphony of the Night - Death First Form_111: -1227798839
+      PlayStation - Castlevania Symphony of the Night - Death First Form_9: 325516664
+      PlayStation - Castlevania Symphony of the Night - Death First Form_58: 1546085197
+      PlayStation - Castlevania Symphony of the Night - Death First Form_93: 1812593733
+      PlayStation - Castlevania Symphony of the Night - Death First Form_112: 1249769311
+      PlayStation - Castlevania Symphony of the Night - Death First Form_97: -736012632
+      PlayStation - Castlevania Symphony of the Night - Death First Form_39: -25432762
+      PlayStation - Castlevania Symphony of the Night - Death First Form_6: -2127431292
+      PlayStation - Castlevania Symphony of the Night - Death First Form_81: 1067747735
+      PlayStation - Castlevania Symphony of the Night - Death First Form_44: 953799418
+      PlayStation - Castlevania Symphony of the Night - Death First Form_64: -1436645382
+      PlayStation - Castlevania Symphony of the Night - Death First Form_90: 731512611
+      PlayStation - Castlevania Symphony of the Night - Death First Form_126: 1074538665
+      PlayStation - Castlevania Symphony of the Night - Death First Form_1: 318576635
+      PlayStation - Castlevania Symphony of the Night - Death First Form_66: -1003845658
+      PlayStation - Castlevania Symphony of the Night - Death First Form_22: 2076574739
+      PlayStation - Castlevania Symphony of the Night - Death First Form_79: -1206277345
+      PlayStation - Castlevania Symphony of the Night - Death First Form_77: 1070018947
+      PlayStation - Castlevania Symphony of the Night - Death First Form_29: -1302400440
+      PlayStation - Castlevania Symphony of the Night - Death First Form_82: 737473575
+      PlayStation - Castlevania Symphony of the Night - Death First Form_105: 1486210725
+      PlayStation - Castlevania Symphony of the Night - Death First Form_83: -547061395
+      PlayStation - Castlevania Symphony of the Night - Death First Form_7: 1561748178
+      PlayStation - Castlevania Symphony of the Night - Death First Form_52: 872964252
+      PlayStation - Castlevania Symphony of the Night - Death First Form_78: -1706961050
+      PlayStation - Castlevania Symphony of the Night - Death First Form_55: 14084815
+      PlayStation - Castlevania Symphony of the Night - Death First Form_49: -742208451
+      PlayStation - Castlevania Symphony of the Night - Death First Form_106: 1742938744
+      PlayStation - Castlevania Symphony of the Night - Death First Form_15: 1622748081
+      PlayStation - Castlevania Symphony of the Night - Death First Form_92: -1252526178
+      PlayStation - Castlevania Symphony of the Night - Death First Form_116: -1951164298
+      PlayStation - Castlevania Symphony of the Night - Death First Form_128: -562897947
+      PlayStation - Castlevania Symphony of the Night - Death First Form_54: -79021314
+      PlayStation - Castlevania Symphony of the Night - Death First Form_25: -1341666558
+      PlayStation - Castlevania Symphony of the Night - Death First Form_89: -1975454516
+      PlayStation - Castlevania Symphony of the Night - Death First Form_115: 1210121507
+      PlayStation - Castlevania Symphony of the Night - Death First Form_17: 125836849
+      PlayStation - Castlevania Symphony of the Night - Death First Form_13: -966908350
+      PlayStation - Castlevania Symphony of the Night - Death First Form_34: 101654755
+      PlayStation - Castlevania Symphony of the Night - Death First Form_18: 878658767
+      PlayStation - Castlevania Symphony of the Night - Death First Form_99: -156280340
+      PlayStation - Castlevania Symphony of the Night - Death First Form_48: 1843955366
+      PlayStation - Castlevania Symphony of the Night - Death First Form_19: 913554218
+      PlayStation - Castlevania Symphony of the Night - Death First Form_123: 1034668017
+      PlayStation - Castlevania Symphony of the Night - Death First Form_125: 778014810
+      PlayStation - Castlevania Symphony of the Night - Death First Form_122: 576254090
+      PlayStation - Castlevania Symphony of the Night - Death First Form_37: 123257985
+      PlayStation - Castlevania Symphony of the Night - Death First Form_72: 146939714
+      PlayStation - Castlevania Symphony of the Night - Death First Form_70: -1564294716
+      PlayStation - Castlevania Symphony of the Night - Death First Form_69: 579916316
+      PlayStation - Castlevania Symphony of the Night - Death First Form_118: 1020843642
+      PlayStation - Castlevania Symphony of the Night - Death First Form_4: -1685198414
+      PlayStation - Castlevania Symphony of the Night - Death First Form_32: 1770533472
+      PlayStation - Castlevania Symphony of the Night - Death First Form_107: 982884819
+      PlayStation - Castlevania Symphony of the Night - Death First Form_53: 1520048619
+      PlayStation - Castlevania Symphony of the Night - Death First Form_101: -2137849486
+      PlayStation - Castlevania Symphony of the Night - Death First Form_130: 1726366897
+      PlayStation - Castlevania Symphony of the Night - Death First Form_2: 1450313859
+      PlayStation - Castlevania Symphony of the Night - Death First Form_117: 2054537912
+      PlayStation - Castlevania Symphony of the Night - Death First Form_121: -2003287596
+      PlayStation - Castlevania Symphony of the Night - Death First Form_114: -807332010
+      PlayStation - Castlevania Symphony of the Night - Death First Form_50: 1712047704
+      PlayStation - Castlevania Symphony of the Night - Death First Form_88: -1591648992
+      PlayStation - Castlevania Symphony of the Night - Death First Form_38: -1289830539
+      PlayStation - Castlevania Symphony of the Night - Death First Form_51: 338747344
+      PlayStation - Castlevania Symphony of the Night - Death First Form_40: -985574833
+      PlayStation - Castlevania Symphony of the Night - Death First Form_95: -179342769
+      PlayStation - Castlevania Symphony of the Night - Death First Form_119: 215340011
+      PlayStation - Castlevania Symphony of the Night - Death First Form_84: 1852844678
+      PlayStation - Castlevania Symphony of the Night - Death First Form_68: 882650396
+      PlayStation - Castlevania Symphony of the Night - Death First Form_45: -1760875396
+      PlayStation - Castlevania Symphony of the Night - Death First Form_96: 1733089441
+      PlayStation - Castlevania Symphony of the Night - Death First Form_60: -1300618296
+      PlayStation - Castlevania Symphony of the Night - Death First Form_12: 1718276165
+      PlayStation - Castlevania Symphony of the Night - Death First Form_33: -396757800
+      PlayStation - Castlevania Symphony of the Night - Death First Form_11: -431115607
+      PlayStation - Castlevania Symphony of the Night - Death First Form_65: 1105066963
+      PlayStation - Castlevania Symphony of the Night - Death First Form_57: 1878631958
+      PlayStation - Castlevania Symphony of the Night - Death First Form_108: 541468434
+      PlayStation - Castlevania Symphony of the Night - Death First Form_104: 1105576302
+      PlayStation - Castlevania Symphony of the Night - Death First Form_62: 1495282228
+      PlayStation - Castlevania Symphony of the Night - Death First Form_20: 403049413
+      PlayStation - Castlevania Symphony of the Night - Death First Form_74: -1380459987
+      PlayStation - Castlevania Symphony of the Night - Death First Form_87: 1289277867
+      PlayStation - Castlevania Symphony of the Night - Death First Form_10: -748679079
+      PlayStation - Castlevania Symphony of the Night - Death First Form_35: -1029138581
+      PlayStation - Castlevania Symphony of the Night - Death First Form_94: 1787528769
+      PlayStation - Castlevania Symphony of the Night - Death First Form_56: 1522464421
+      PlayStation - Castlevania Symphony of the Night - Death First Form_80: 1783318375
+      PlayStation - Castlevania Symphony of the Night - Death First Form_47: 1216346268
+      PlayStation - Castlevania Symphony of the Night - Death First Form_42: -116028315
+      PlayStation - Castlevania Symphony of the Night - Death First Form_24: 1838394407
+      PlayStation - Castlevania Symphony of the Night - Death First Form_113: -1562148127
+      PlayStation - Castlevania Symphony of the Night - Death First Form_5: 382045179
+      PlayStation - Castlevania Symphony of the Night - Death First Form_8: 1474251221
+      PlayStation - Castlevania Symphony of the Night - Death First Form_102: 791454247
+      PlayStation - Castlevania Symphony of the Night - Death First Form_30: -2146809731
+      PlayStation - Castlevania Symphony of the Night - Death First Form_43: 2044770211
+      PlayStation - Castlevania Symphony of the Night - Death First Form_85: 873703766
+      PlayStation - Castlevania Symphony of the Night - Death First Form_110: -935378649
+      PlayStation - Castlevania Symphony of the Night - Death First Form_16: 1134016179
+      PlayStation - Castlevania Symphony of the Night - Death First Form_3: 1218160633
+      PlayStation - Castlevania Symphony of the Night - Death First Form_0: -711267714
+      PlayStation - Castlevania Symphony of the Night - Death First Form_61: -1466756960
+      PlayStation - Castlevania Symphony of the Night - Death First Form_73: 165153688
+      PlayStation - Castlevania Symphony of the Night - Death First Form_124: -1992703884
+      PlayStation - Castlevania Symphony of the Night - Death First Form_91: -848141233
+      PlayStation - Castlevania Symphony of the Night - Death First Form_31: -201682877
+      PlayStation - Castlevania Symphony of the Night - Death First Form_76: -2032381284
+      PlayStation - Castlevania Symphony of the Night - Death First Form_14: 1220115729
+      PlayStation - Castlevania Symphony of the Night - Death First Form_41: 1093729795
+      PlayStation - Castlevania Symphony of the Night - Death First Form_103: -600241960
+      PlayStation - Castlevania Symphony of the Night - Death First Form_28: -674091238
+      PlayStation - Castlevania Symphony of the Night - Death First Form_129: 1517034608
+      PlayStation - Castlevania Symphony of the Night - Death First Form_63: 1943398254
+      PlayStation - Castlevania Symphony of the Night - Death First Form_86: 597551009
+      PlayStation - Castlevania Symphony of the Night - Death First Form_127: 523689564
+      PlayStation - Castlevania Symphony of the Night - Death First Form_67: 1614691507
+      PlayStation - Castlevania Symphony of the Night - Death First Form_75: -1282980877
+      PlayStation - Castlevania Symphony of the Night - Death First Form_109: -1502987794
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
