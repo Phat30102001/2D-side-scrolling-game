@@ -33,6 +33,7 @@ public class PlayerAttack : MonoBehaviour
 
     public void Attacking()
     {
+        //if (PlayerBehaviour.instace.state != PlayerState.IDLE) return;
         isAttacking = true;
     }
 

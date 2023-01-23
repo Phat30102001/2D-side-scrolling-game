@@ -104,6 +104,9 @@ public class InputManager : MonoBehaviour
                 DoorOpenSide door = Item.GetComponent<DoorOpenSide>();
                 door.OpenDoor();
                 break;
+            case "Bonfire":
+                Debug.Log("bonfire");
+                break;
         }
 
         //Debug.Log("item detected");

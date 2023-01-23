@@ -74,7 +74,7 @@ public class EnemyBehaviour : MonoBehaviour
             case EnemyState.IDLE:
                 break;
             case EnemyState.DIE:
-                Destroy(gameObject);
+                gameObject.SetActive(false);
                 break;
 
         }

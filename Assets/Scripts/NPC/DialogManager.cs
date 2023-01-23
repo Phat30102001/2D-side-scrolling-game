@@ -33,9 +33,8 @@ public class DialogManager : MonoBehaviour
         activeMessage++;
         if (activeMessage < currentMessage.Length)
             DisplayMessage();
-        else
+        if(activeMessage >= currentMessage.Length)
         {
-
             animator.SetBool("fadeIn", false);
             Debug.Log("End");
 

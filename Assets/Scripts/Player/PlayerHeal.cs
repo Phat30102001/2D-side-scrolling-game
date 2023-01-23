@@ -18,6 +18,7 @@ public class PlayerHeal : MonoBehaviour
 
     public void Healing()
     {
+        //if (PlayerBehaviour.instace.state != PlayerState.IDLE) return;
         StartCoroutine(unit.Heal(1));
     }
 }

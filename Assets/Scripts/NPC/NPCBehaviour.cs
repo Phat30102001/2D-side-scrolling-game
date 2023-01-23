@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum NPCState {IDLE, TALKABLE, GIVECHOICE }
+public enum NPCState {IDLE, TALKABLE }
 
 public class NPCBehaviour : MonoBehaviour
 {
@@ -59,9 +59,6 @@ public class NPCBehaviour : MonoBehaviour
                 input.Npc = gameObject;
                 talkButton.SetActive(true);
                 break;
-            case NPCState.GIVECHOICE:
-                break;
-
         }
     }
 

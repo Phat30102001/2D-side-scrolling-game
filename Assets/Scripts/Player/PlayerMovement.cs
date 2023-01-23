@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         // player cant move when take damage (knockback havent been recoveried)
-        if (kBCounter <= 0)
+        if (kBCounter <= 0 )
         {
             this.horizontal = InputManager.instance.Horizontal;
             // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
@@ -92,6 +92,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jumping()
     {
+        //if (PlayerBehaviour.instace.state != PlayerState.IDLE) return;
         rb.AddForce(Vector2.up * jumpingForce, ForceMode2D.Impulse);
     }
 
