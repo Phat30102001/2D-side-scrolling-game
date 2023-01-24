@@ -19,9 +19,9 @@ TagManager:
   - Interactable
   - 
   - Player
-  - Enemies/NPC
-  - 
-  - 
+  - Enemies
+  - NPC
+  - Hitbox
   - 
   - 
   - 
@@ -57,7 +57,7 @@ TagManager:
   - name: Interactable
     uniqueID: 1411551707
     locked: 0
-  - name: Enemy/NPC
+  - name: Enemy&NPC
     uniqueID: 1511647379
     locked: 0
   - name: Character

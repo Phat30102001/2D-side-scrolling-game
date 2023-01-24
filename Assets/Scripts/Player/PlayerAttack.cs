@@ -49,13 +49,13 @@ public class PlayerAttack : MonoBehaviour
         foreach (Collider2D collider in detectedObjects)
         {
             if (collider.tag != "Enemy") return;
-            UnitStatReceiver enemyStat = collider.transform.GetChild(2).GetComponent<UnitStatReceiver>();
+            UnitStatReceiver enemyStat = collider.GetComponentInChildren<UnitStatReceiver>();
 
             enemyStat.TakeDamage(unit.Damage);
             if (enemyStat.CurrentHp <= 0)
                 unit.TransferMoney(enemyStat.Money); 
             
-            collider.transform.GetChild(0).GetComponent<EnemyDamaged>().Flash();
+            collider.GetComponentInChildren<EnemyDamaged>().Flash();
         }
     }
     private void OnDrawGizmos()
