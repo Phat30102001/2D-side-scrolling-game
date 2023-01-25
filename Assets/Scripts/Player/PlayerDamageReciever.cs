@@ -33,7 +33,7 @@ public class PlayerDamageReciever : MonoBehaviour
             //Debug.Log("Contact damage");
 
             //playerHealth.TakeDamage(collision.gameObject.)
-            unit.TakeDamage(collision.transform.parent.GetChild(2).GetComponent<UnitStatReceiver>().Damage);
+            unit.TakeDamage(collision.transform.parent.GetComponentInChildren<UnitStatReceiver>().Damage);
             if (collision.transform.parent.position.x >= transform.position.x && unit.KBForce > 0)
                 unit.KBForce *= -1;
             if (collision.transform.parent.position.x < transform.position.x && unit.KBForce < 0)

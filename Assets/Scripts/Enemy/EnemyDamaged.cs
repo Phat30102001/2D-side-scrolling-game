@@ -13,7 +13,7 @@ public class EnemyDamaged : MonoBehaviour
         [SerializeField] private Material flashMaterial;
 
         //[Tooltip("Duration of the flash.")]
-        [SerializeField] private float duration;
+        private float duration=0.1f;
 
         //#endregion
         //#region Private Fields
