@@ -7,7 +7,7 @@ public class DisableProjectile : Action
 {
     public override void OnStart()
     {
-        foreach (GameObject p in FallingObject.instance.projectilePool)
+        foreach (GameObject p in ProjectileManager.instance.projectilePool)
         {
             p.SetActive(false);
         }

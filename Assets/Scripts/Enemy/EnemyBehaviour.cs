@@ -74,7 +74,8 @@ public class EnemyBehaviour : MonoBehaviour
             case EnemyState.IDLE:
                 break;
             case EnemyState.DIE:
-                gameObject.SetActive(false);
+                //gameObject.transform.parent.gameObject.SetActive(false);
+                HandleDead();
                 break;
 
         }
@@ -102,5 +103,10 @@ public class EnemyBehaviour : MonoBehaviour
     void IsDead()
     {
         if (unit.CurrentHp <= 0) UpdateEnemyBehaivour(EnemyState.DIE);
+    }
+
+    public virtual void HandleDead()
+    {
+        gameObject.transform.parent.gameObject.SetActive(false);
     }
 }

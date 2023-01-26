@@ -30,7 +30,7 @@ public class ProjectilePooling : Action
 
     public IEnumerator ActiveProjectile()
     {
-        foreach (GameObject p in FallingObject.instance.projectilePool)
+        foreach (GameObject p in ProjectileManager.instance.projectilePool)
         {
             float randomx = Random.Range(spawnArea.bounds.min.x, spawnArea.bounds.max.x);
             p.SetActive(true);
