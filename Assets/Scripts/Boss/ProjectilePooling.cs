@@ -9,26 +9,16 @@ public class ProjectilePooling : Action
 
     //public GameObject parentObject;
 
-    [SerializeField] private float spawnInterval;
+    public float spawnInterval;
 
     public override TaskStatus OnUpdate()
     {
-
-        //foreach (GameObject p in FallingObject.instance.projectilePool)
-        //{
-        //    //p.SetActive(true);
-        //    //Vector3 pos= p.transform.position;
-        //    sequence.AppendCallback(ActiveProjectile(p));
-
-        //    sequence.AppendInterval(spawnInterval);
-        //}
-
         StartCoroutine(ActiveProjectile());
 
         return TaskStatus.Success;
     }
 
-    public IEnumerator ActiveProjectile()
+    public virtual IEnumerator ActiveProjectile()
     {
         foreach (GameObject p in ProjectileManager.instance.projectilePool)
         {
@@ -38,6 +28,7 @@ public class ProjectilePooling : Action
             pos.x = randomx;
             pos.y=spawnArea.bounds.min.y;
             p.transform.position = pos;
+            p.GetComponent<Rigidbody2D>().gravityScale = 1;
 
             yield return new WaitForSeconds(spawnInterval);
         }
