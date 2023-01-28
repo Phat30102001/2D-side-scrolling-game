@@ -39,4 +39,5 @@ public class DoorOpenSide : MonoBehaviour
         else
             Debug.Log("Does not open from this side");
     }
+
 }
