@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class AtiveBossFight : MonoBehaviour
 {
+    [SerializeField] private TextMeshProUGUI bossName;
+
     [SerializeField] private GameObject boss;
     [SerializeField] private Transform activePoint;
     [SerializeField] private Transform player;
@@ -14,6 +17,7 @@ public class AtiveBossFight : MonoBehaviour
 
     private void Start()
     {
+        bossName.gameObject.SetActive(false);
         boss.SetActive(false);
     }
     private void FixedUpdate()
@@ -22,6 +26,7 @@ public class AtiveBossFight : MonoBehaviour
         if (dis <=0.5)
         {
             boss.SetActive(true);
+            DisplayBossName();
             foreach(GameObject door in doorList) 
             {
                 CloseDoor(door);
@@ -39,5 +44,11 @@ public class AtiveBossFight : MonoBehaviour
     {
         door.GetComponent<BoxCollider2D>().isTrigger = false;
         door.GetComponent<Animator>().Play("DoorClose");
+    }
+
+    public void DisplayBossName()
+    {
+        bossName.gameObject.SetActive(true);
+        bossName.text = "Reaper";
     }
 }
