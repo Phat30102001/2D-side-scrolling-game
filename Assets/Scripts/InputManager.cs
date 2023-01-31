@@ -11,11 +11,14 @@ public class InputManager : MonoBehaviour
     //public GameObject npc;
     public PlayerInventory inventory;
 
+
     private float horizontal;
-    private bool messageBoardOpened;
+    //private bool messageBoardOpened;
 
     private GameObject npc;
     private GameObject item;
+
+
 
 
     private void Awake()
@@ -25,7 +28,7 @@ public class InputManager : MonoBehaviour
 
     public float Horizontal { get => horizontal; set => horizontal = value; }
     public GameObject Npc { get => npc; set => npc = value; }
-    public bool MessageBoardOpened { get => messageBoardOpened; set => messageBoardOpened = value; }
+    //public bool MessageBoardOpened { get => messageBoardOpened; set => messageBoardOpened = value; }
     public GameObject Item { get => item; set => item = value; }
 
     public void Move(InputAction.CallbackContext context)
@@ -79,13 +82,19 @@ public class InputManager : MonoBehaviour
 
         if (nPCBehaviour.state != NPCState.TALKABLE) return;
 
-        if (!MessageBoardOpened)
-        {
-            Npc.gameObject.GetComponent<NPCDialog>().StartDialog();
-            MessageBoardOpened = true;
-        }
-        else
-            FindObjectOfType<DialogManager>().NextMessage();
+        //if (!MessageBoardOpened)
+        //{
+        Npc.gameObject.GetComponent<NpcTalking>().Talk();
+        //    MessageBoardOpened = true;
+        //}
+        //else
+        //    FindObjectOfType<DialogManager>().NextMessage();
+        //if (MessageBoardOpened)
+        //{
+
+        //}
+        //else
+        //    MessageBoardOpened= true;
     }
     
     public void ItemDetect()

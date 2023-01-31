@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 58935388287846497}
   - component: {fileID: 58935388287846498}
   - component: {fileID: 58935388287846527}
-  - component: {fileID: 58935388287846526}
+  - component: {fileID: 1856622576}
   m_Layer: 11
   m_Name: NPC
   m_TagString: Interactable
@@ -293,7 +293,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58935388287846502}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.73, y: -10.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   state: 0
   talkButton: {fileID: 58935386992525590}
   playerDetect: 0
---- !u!114 &58935388287846526
+--- !u!114 &1856622576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -365,17 +365,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 58935388287846502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81da0143a0ddf8d43903c8c0728a9f69, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d29a4b44e506ef4d893ec2710d0d860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message:
-  - phase: 0
-    mess: Ah, hello!
-  - phase: 0
-    mess: You don't look Hollow, far from it!
-  - phase: 0
-    mess: I am Solaire of Astora, an adherent of the Lord of Sunlight.
-  - phase: 0
-    mess: ...
-  - phase: 1
-    mess: What do you want?
+  animator: {fileID: 0}
+  dialogPanel: {fileID: 0}
+  text: {fileID: 0}
+  dialog:
+  - Ah, hello!
+  - You don't look Hollow, far from it!
+  - I am Solaire of Astora, an adherent of the Lord of Sunlight.

@@ -10,7 +10,7 @@ public class AtiveBossFight : MonoBehaviour
     [SerializeField] private GameObject boss;
     [SerializeField] private Transform activePoint;
     [SerializeField] private Transform player;
-
+    [SerializeField] private GameObject room;
 
     public List<GameObject> doorList;
 
@@ -23,7 +23,7 @@ public class AtiveBossFight : MonoBehaviour
     private void FixedUpdate()
     {
         float dis = DisToPlayer();
-        if (dis <=0.5)
+        if (dis <=0.5 && room.activeSelf==true)
         {
             boss.SetActive(true);
             DisplayBossName();

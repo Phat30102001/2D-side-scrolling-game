@@ -8,7 +8,7 @@ public class NPCDialog : MonoBehaviour
  
     public void StartDialog()
     {
-        FindObjectOfType <DialogManager>().OpenDialog(message);
+        //FindObjectOfType <DialogManager>().OpenDialog(message);
     }
 }
 

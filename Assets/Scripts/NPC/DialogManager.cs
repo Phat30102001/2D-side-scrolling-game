@@ -38,7 +38,7 @@ public class DialogManager : MonoBehaviour
             animator.SetBool("fadeIn", false);
             Debug.Log("End");
 
-            InputManager.instance.MessageBoardOpened = false;
+            //InputManager.instance.MessageBoardOpened = false;
 
         }
             

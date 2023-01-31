@@ -133,7 +133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flashMaterial: {fileID: 2100000, guid: 87a45f80cec372a42ba6eec0a9e28ffc, type: 2}
-  duration: 0.1
 --- !u!1 &6153402553300747610
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +322,7 @@ GameObject:
   - component: {fileID: 6153402554491844984}
   m_Layer: 10
   m_Name: HalberdSkeletonController
-  m_TagString: Untagged
+  m_TagString: EnemyCtrler
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
