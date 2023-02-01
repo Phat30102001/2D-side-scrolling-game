@@ -37,36 +37,43 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        // player cant move when take damage (knockback havent been recoveried)
-        if (kBCounter <= 0 )
-        {
-            this.horizontal = InputManager.instance.Horizontal;
-            // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
-            rb.velocity = new Vector2(horizontal * unit.MovingSpeed, rb.velocity.y);
-            animator.SetFloat("IsRun", Mathf.Abs(horizontal));
-        }
-        else
-        {
-            //kBCounter = unit.KBTotalTime;
-            animator.Play("PlayerDamaged");
+        if (GameManager.instance.state != gameState.END) { 
+            // player cant move when take damage (knockback havent been recoveried)
+            if (kBCounter <= 0 )
+            {
+                this.horizontal = InputManager.instance.Horizontal;
+                // horizontal*speed: make object move, horizontal==0 when user do not press left or right button
+                rb.velocity = new Vector2(horizontal * unit.MovingSpeed, rb.velocity.y);
+                animator.SetFloat("IsRun", Mathf.Abs(horizontal));
+            }
+            else
+            {
+                if(GameManager.instance.state!= gameState.END)
+                {
 
-                rb.velocity = new Vector2(unit.KBForce,rb.velocity.y);
+                    animator.Play("PlayerDamaged");
 
-            kBCounter -= Time.deltaTime;
-        }
+                    rb.velocity = new Vector2(unit.KBForce,rb.velocity.y);
+
+                    kBCounter -= Time.deltaTime;
+                    }
 
         
 
-        // facing direction
-        if (!isFacingRight && horizontal > 0f)
-        {
-            FlipSprite();
+                }
+                //kBCounter = unit.KBTotalTime;
+            
+            // facing direction
+            if (!isFacingRight && horizontal > 0f)
+            {
+                FlipSprite();
+            }
+            else if (isFacingRight && horizontal < 0f)
+            {
+                FlipSprite();
+            }    
+            JumpingAnimation();
         }
-        else if (isFacingRight && horizontal < 0f)
-        {
-            FlipSprite();
-        }
-        JumpingAnimation();
     }
     private void Update()
     {
@@ -93,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
     public void Jumping()
     {
         //if (PlayerBehaviour.instace.state != PlayerState.IDLE) return;
+         
         rb.AddForce(Vector2.up * jumpingForce, ForceMode2D.Impulse);
     }
 

@@ -33,30 +33,43 @@ public class InputManager : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-        Horizontal= context.ReadValue<Vector2>().x;
+        if (GameManager.instance.state == gameState.PLAYABLE)
+            Horizontal = context.ReadValue<Vector2>().x;
+        else
+            Horizontal = 0;
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
-        if (context.performed && PlayerMovement.instance.IsGrounded())
+        if (GameManager.instance.state == gameState.PLAYABLE)
         {
-            PlayerMovement.instance.Jumping();
-        }
+            if (context.performed && PlayerMovement.instance.IsGrounded())
+            {
+                PlayerMovement.instance.Jumping();
+            }
 
-        // reduce jump height when player didn't hold jump button (jump cut)
-        if (context.canceled && rb.velocity.y > 0)
-        {
-            PlayerMovement.instance.JumpCancel();
+            // reduce jump height when player didn't hold jump button (jump cut)
+            if (context.canceled && rb.velocity.y > 0)
+            {
+                PlayerMovement.instance.JumpCancel();
+            }
+
         }
+        
     }
 
     public void Attack(InputAction.CallbackContext context)
     {
-        if (context.performed && !PlayerAttack.instance.isAttacking && PlayerMovement.instance.IsGrounded())
+        if (GameManager.instance.state == gameState.PLAYABLE)
         {
-            PlayerAttack.instance.Attacking();
+            if (context.performed && !PlayerAttack.instance.isAttacking && PlayerMovement.instance.IsGrounded())
+            {
+                PlayerAttack.instance.Attacking();
+
+            }
 
         }
+            
     }
 
     public void Heal(InputAction.CallbackContext context)

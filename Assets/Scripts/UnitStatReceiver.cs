@@ -52,7 +52,7 @@ public class UnitStatReceiver : MonoBehaviour
     public void TakeDamage(int damageValue)
     {
         CurrentHp -= damageValue;
-Debug.Log("HP:" + CurrentHp);
+//Debug.Log("HP:" + CurrentHp);
     }
     public IEnumerator Heal(int healValue)
     {
@@ -64,7 +64,7 @@ Debug.Log("HP:" + CurrentHp);
             CurrentHp = MaxHp;
         else
             CurrentHp += healValue;
-        Debug.Log("HP:" + CurrentHp);
+        //Debug.Log("HP:" + CurrentHp);
     }
 
     public void TransferMoney(int value)

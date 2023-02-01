@@ -27,13 +27,20 @@ public class PlayerDamageReciever : MonoBehaviour
     //}
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy"&&GameManager.instance.state!=gameState.END)
         {
             PlayerMovement.instance.kBCounter = unit.KBTotalTime;
             //Debug.Log("Contact damage");
 
             //playerHealth.TakeDamage(collision.gameObject.)
             unit.TakeDamage(collision.transform.parent.GetComponentInChildren<UnitStatReceiver>().Damage);
+
+            if (unit.CurrentHp <= 0)
+            {
+                GameManager.instance.UpdateGameState(gameState.END);
+            }
+                
+
             if (collision.transform.parent.position.x >= transform.position.x && unit.KBForce > 0)
                 unit.KBForce *= -1;
             if (collision.transform.parent.position.x < transform.position.x && unit.KBForce < 0)
