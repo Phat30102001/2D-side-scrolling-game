@@ -192,6 +192,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c37de01f4092547b3b4d17f468e0ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 817669084319076544}
+  dialogPanel: {fileID: 0}
+  text: {fileID: 0}
+  dialog:
+  - Does not open from this side
   side: -1
   animator: {fileID: 817669084319076544}
 --- !u!1 &817669084470567798

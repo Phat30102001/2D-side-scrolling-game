@@ -15,22 +15,25 @@ public class NpcTalking : MonoBehaviour
     private bool panelOpened;
 
     private NPCBehaviour npc;
+
+    public bool PanelOpened { get => panelOpened; set => panelOpened = value; }
+
     private void Start()
     {
         npc=GetComponent<NPCBehaviour>();
-        panelOpened = false;
+        PanelOpened = false;
     }
 
     private void Update()
     {
-        if (npc.state == NPCState.IDLE&&panelOpened)
+        if (npc.state == NPCState.IDLE && PanelOpened)
         {
             ZeroText();
         }
     }
     public void Talk()
     {
-        if (panelOpened)
+        if (PanelOpened)
         {
 
             NextLine();
@@ -38,7 +41,7 @@ public class NpcTalking : MonoBehaviour
         else
         {
             animator.SetBool("fadeIn", true);
-            panelOpened = true;
+            PanelOpened = true;
             Typing();
         }
     }
@@ -48,7 +51,7 @@ public class NpcTalking : MonoBehaviour
         animator.SetBool("fadeIn", false);
         text.text = "";
         index= 0;
-        panelOpened= false;
+        PanelOpened= false;
         
     }
 
