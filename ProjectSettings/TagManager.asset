@@ -67,3 +67,6 @@ TagManager:
   - name: HUD
     uniqueID: 2534712207
     locked: 0
+  - name: Fullscreen
+    uniqueID: 2682266477
+    locked: 0

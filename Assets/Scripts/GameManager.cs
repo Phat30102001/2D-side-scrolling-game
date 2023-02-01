@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Windows;
 
 public enum gameState { START,PLAYABLE,END,GAMEOVER }
@@ -12,6 +13,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public Animator player;
+
+    [SerializeField] private GameObject gameOver;
 
     private void Awake()
     {
@@ -46,8 +49,18 @@ public class GameManager : MonoBehaviour
                 //player.Play("PlayerDead");
                 player.SetTrigger("IsDeadTrigger");
                 player.SetBool("IsDead",true);
-
+                StartCoroutine(GameOverScene());
                 break;
         }
+    }
+
+    private IEnumerator GameOverScene()
+    {
+        yield return new WaitForSeconds(1f);
+
+        gameOver.SetActive(true);
+
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(0);
     }
 }

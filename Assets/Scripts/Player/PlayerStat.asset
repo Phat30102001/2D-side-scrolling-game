@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91cb0a44ea8a5e141a4770fdc45e0e2f, type: 3}
   m_Name: PlayerStat
   m_EditorClassIdentifier: 
-  hp: 1
+  hp: 5
   damage: 1
   money: 0
   movingSpeed: 9
