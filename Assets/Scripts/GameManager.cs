@@ -61,6 +61,6 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(true);
 
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

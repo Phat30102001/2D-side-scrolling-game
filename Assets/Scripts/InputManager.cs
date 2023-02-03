@@ -7,6 +7,7 @@ public class InputManager : MonoBehaviour
 {
     public static InputManager instance;
 
+    public GameObject option;
     public Rigidbody2D rb;
     //public GameObject npc;
     public PlayerInventory inventory;
@@ -132,6 +133,17 @@ public class InputManager : MonoBehaviour
         }
 
         //Debug.Log("item detected");
+    }
+
+    public void Pause(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Time.timeScale = 0;
+            option.SetActive(true);
+        }
+
+        
     }
     
 
